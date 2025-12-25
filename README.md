@@ -39,7 +39,7 @@ brew install cmake ninja gcc g++ python3
 
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR-ORG/symbian-revival.git
+git clone https://github.com/CKCHDX/SROS.git
 cd symbian-revival
 
 # Run setup script
