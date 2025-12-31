@@ -1,0 +1,110 @@
+[2025-12-28 19:05:50] [INFO] SROS Setup initialized on Windows
+[2025-12-28 19:05:50] [INFO] Base directory: symbian-os
+[2025-12-28 19:05:50] [INFO] Starting repository cloning (option: b)...
+[2025-12-28 19:05:50] [INFO] Cloning complete UI + services (~3 GB, 45-90 min)...
+[2025-12-28 19:05:50] [INFO] Cloning kernel...
+[2025-12-28 19:06:29] [SUCCESS] ✓ Successfully cloned: kernel
+[2025-12-28 19:06:30] [INFO] Cloning graphics...
+[2025-12-28 19:06:50] [SUCCESS] ✓ Successfully cloned: graphics
+[2025-12-28 19:06:51] [INFO] Cloning devicesrv...
+[2025-12-28 19:07:07] [SUCCESS] ✓ Successfully cloned: devicesrv
+[2025-12-28 19:07:08] [INFO] Cloning userlib...
+[2025-12-28 19:07:40] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\userlib'...
+remote: Repository not found.
+fatal: repository 'https://github.com/SymbianSource/oss.FCL.sf.os.userlibandfileserver.git/' not found
+
+[2025-12-28 19:07:41] [INFO] Cloning s60...
+[2025-12-28 19:07:44] [SUCCESS] ✓ Successfully cloned: s60
+[2025-12-28 19:07:45] [INFO] Cloning worldserver...
+[2025-12-28 19:08:01] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\worldserver'...
+remote: Repository not found.
+fatal: repository 'https://github.com/SymbianSource/oss.FCL.sf.os.worldserver.git/' not found
+
+[2025-12-28 19:08:02] [INFO] Cloning qt...
+[2025-12-28 19:08:19] [INFO] SROS Setup initialized on Windows
+[2025-12-28 19:08:19] [INFO] Base directory: symbian-os
+[2025-12-28 19:08:19] [INFO] Starting repository cloning (option: b)...
+[2025-12-28 19:08:19] [INFO] Cloning complete UI + services (~3 GB, 45-90 min)...
+[2025-12-28 19:08:19] [SUCCESS] ✓ Repository already exists: kernel
+[2025-12-28 19:08:20] [SUCCESS] ✓ Repository already exists: graphics
+[2025-12-28 19:08:21] [SUCCESS] ✓ Repository already exists: devicesrv
+[2025-12-28 19:08:22] [INFO] Cloning userlib...
+[2025-12-28 19:09:08] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\userlib'...
+remote: Repository not found.
+fatal: repository 'https://github.com/SymbianSource/oss.FCL.sf.os.userlibandfileserver.git/' not found
+
+[2025-12-28 19:09:09] [SUCCESS] ✓ Repository already exists: s60
+[2025-12-28 19:09:10] [INFO] Cloning worldserver...
+[2025-12-28 19:09:31] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\worldserver'...
+remote: Repository not found.
+fatal: repository 'https://github.com/SymbianSource/oss.FCL.sf.os.worldserver.git/' not found
+
+[2025-12-28 19:09:32] [INFO] Cloning qt...
+[2025-12-28 19:10:34] [SUCCESS] ✓ Successfully cloned: qt
+[2025-12-28 19:10:35] [INFO] Cloning commsfw...
+[2025-12-28 19:10:42] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\commsfw'...
+error: RPC failed; curl 56 Recv failure: Connection was reset
+error: 12837 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+[2025-12-28 19:10:43] [INFO] Cloning cellularsrv...
+[2025-12-28 19:10:48] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\cellularsrv'...
+error: RPC failed; curl 56 Recv failure: Connection was reset
+error: 39 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+[2025-12-28 19:11:38] [INFO] SROS Setup initialized on Windows
+[2025-12-28 19:11:38] [INFO] Base directory: symbian-os
+[2025-12-28 19:11:38] [INFO] Starting repository cloning (option: b)...
+[2025-12-28 19:11:38] [INFO] Cloning complete UI + services (~3 GB, 45-90 min)...
+[2025-12-28 19:11:38] [SUCCESS] ✓ Repository already exists: kernel
+[2025-12-28 19:11:39] [SUCCESS] ✓ Repository already exists: graphics
+[2025-12-28 19:11:40] [SUCCESS] ✓ Repository already exists: devicesrv
+[2025-12-28 19:11:41] [INFO] Cloning userlib...
+[2025-12-28 19:11:49] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\userlib'...
+remote: Repository not found.
+fatal: repository 'https://github.com/SymbianSource/oss.FCL.sf.os.userlibandfileserver.git/' not found
+
+[2025-12-28 19:11:50] [SUCCESS] ✓ Repository already exists: s60
+[2025-12-28 19:11:51] [INFO] Cloning worldserver...
+[2025-12-28 19:11:58] [ERROR] ✗ Clone failed: Cloning into 'symbian-os\worldserver'...
+fatal: User cancelled dialog.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+
+[2025-12-28 19:11:59] [SUCCESS] ✓ Repository already exists: qt
+[2025-12-28 19:12:00] [INFO] Cloning commsfw...
+[2025-12-28 19:12:12] [SUCCESS] ✓ Successfully cloned: commsfw
+[2025-12-28 19:12:13] [INFO] Cloning cellularsrv...
+[2025-12-28 19:12:26] [SUCCESS] ✓ Successfully cloned: cellularsrv
+[2025-12-28 20:38:45] [INFO] SROS Setup initialized on Windows
+[2025-12-28 20:38:45] [INFO] Base directory: C:\Users\080709aj\Desktop\SYMBIAN-OS\symbian-os
+[2025-12-28 20:38:45] [INFO] Verifying cloned repositories...
+[2025-12-28 20:38:47] [INFO] ✓ build-tools: 7834 files, 860.79MB
+[2025-12-28 20:38:48] [INFO] ✓ cellularsrv: 4967 files, 102.18MB
+[2025-12-28 20:38:49] [INFO] ✓ commsfw: 5153 files, 56.55MB
+[2025-12-28 20:38:51] [INFO] ✓ devicesrv: 6939 files, 97.38MB
+[2025-12-28 20:38:52] [INFO] ✓ graphics: 4102 files, 121.44MB
+[2025-12-28 20:38:53] [INFO] ✓ kernel: 6011 files, 116.43MB
+[2025-12-28 20:38:59] [INFO] ✓ qt: 34980 files, 482.86MB
+[2025-12-28 20:38:59] [INFO] ✓ s60: 179 files, 2.81MB
+[2025-12-28 20:39:00] [INFO] ✓ securitysrv: 1513 files, 18.18MB
+[2025-12-28 20:39:01] [INFO] ✓ web: 6353 files, 95.66MB
+[2025-12-28 20:40:28] [INFO] SROS Setup initialized on Windows
+[2025-12-28 20:40:28] [INFO] Base directory: C:\Users\080709aj\Desktop\SYMBIAN-OS\symbian-os
+[2025-12-28 20:40:28] [INFO] Verifying cloned repositories...
+[2025-12-28 20:40:29] [INFO] ✓ build-tools: 7834 files, 860.79MB
+[2025-12-28 20:40:30] [INFO] ✓ cellularsrv: 4967 files, 102.18MB
+[2025-12-28 20:40:31] [INFO] ✓ commsfw: 5153 files, 56.55MB
+[2025-12-28 20:40:33] [INFO] ✓ devicesrv: 6939 files, 97.38MB
+[2025-12-28 20:40:34] [INFO] ✓ graphics: 4102 files, 121.44MB
+[2025-12-28 20:40:35] [INFO] ✓ kernel: 6011 files, 116.43MB
+[2025-12-28 20:40:41] [INFO] ✓ qt: 34980 files, 482.86MB
+[2025-12-28 20:40:41] [INFO] ✓ s60: 179 files, 2.81MB
+[2025-12-28 20:40:41] [INFO] ✓ securitysrv: 1513 files, 18.18MB
+[2025-12-28 20:40:42] [INFO] ✓ web: 6353 files, 95.66MB
