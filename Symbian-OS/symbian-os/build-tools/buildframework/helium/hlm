@@ -1,0 +1,87 @@
+#!/bin/bash
+
+#
+# Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+# All rights reserved.
+# This component and the accompanying materials are made available
+# under the terms of the License "Eclipse Public License v1.0"
+# which accompanies this distribution, and is available
+# at the URL "http://www.eclipse.org/legal/epl-v10.html".
+#
+# Initial Contributors:
+# Nokia Corporation - initial contribution.
+#
+# Contributors:
+#
+# Description: 
+#
+if [ ! $HELIUM_HOME ] ; then
+    export HELIUM_HOME=$(dirname $(readlink -f $0))
+fi
+
+export LANG="en_US.UTF-8"
+export ANT_ARGS="-lib $HELIUM_HOME/external/antlibs2 -logger com.nokia.helium.core.ant.HeliumLogger -Dant.executor.class=com.nokia.helium.core.ant.HeliumExecutor -listener com.nokia.helium.logger.ant.listener.CommonListener -listener com.nokia.helium.core.ant.listener.TargetTimesLogGeneratorListener"
+
+TEMP_PYTHONPATH="$HELIUM_HOME/external/python/lib/common:$HELIUM_HOME/external/python/lib/auto:$HELIUM_HOME/extensions/nokia/external/python/lib/2.5:$HELIUM_HOME/extensions/nokia/tools/common/python/lib"
+
+TEMP_PERL5LIB="$HELIUM_HOME/tools/common/packages"
+if [ ! $PERL5LIB ] ; then
+    PERL5LIB=$TEMP_PERL5LIB
+else
+    PERL5LIB="$PERL5LIB:$TEMP_PERL5LIB"
+fi
+
+
+if [ $HOST ]; then
+    export COMPUTERNAME=$HOST
+elif [ $HOSTNAME ]; then
+    export COMPUTERNAME=$HOSTNAME
+else
+    export COMPUTERNAME=$(hostname)
+fi
+
+if [ ! $PYTHONPATH ] ; then
+    export PYTHONPATH=$TEMP_PYTHONPATH
+else
+    export PYTHONPATH="$PYTHONPATH:$TEMP_PYTHONPATH"
+fi
+
+TEMP_JYTHONPATH="$HELIUM_HOME/external/python/lib/2.5/jython-2.5-py2.5.egg:$PYTHONPATH"
+
+. $HELIUM_HOME/external/python/configure_jython.sh
+if [ ! $JYTHONPATH ] ; then
+    export JYTHONPATH="$TEMP_JYTHONPATH:$HLM_EGG_JYTHONPATH"
+else
+    export JYTHONPATH="$JYTHONPATH:$TEMP_JYTHONPATH:$HLM_EGG_JYTHONPATH"
+fi
+
+export USERNAME=$USER
+export SYMSEE_VERSION="not_in_use"
+export PID=$$
+export TEMP="/tmp/$USER"
+if [ $JOB_ID ] ; then
+    export HELIUM_CACHE_DIR="$TEMP/helium/$USER/$JOB_ID"
+else
+    export HELIUM_CACHE_DIR="$TEMP/helium/$USER"
+fi
+export ANT_OPTS="$HLM_OPTS -Dlog4j.configuration=com/nokia/log4j.xml -Dlog4j.cache.dir=$HELIUM_CACHE_DIR -Dpython.verbose=warning"
+export PYTHON_CACHEDIR="$HELIUM_CACHE_DIR/python"
+
+mkdir -p $HELIUM_CACHE_DIR
+
+if [ ! $EPOCROOT ]; then
+    export EPOCROOT="/"
+fi 
+
+if [ ! -f "$HELIUM_HOME/external/antlibs2/helium-checktools-1.0.jar" ] ; then
+    echo "Please build helium from nokia_builder or builder dir run 'bld && bld get-deps'"
+    exit 1
+else 
+    java -cp "$HELIUM_HOME/external/antlibs2/helium-checktools-1.0.jar" com.nokia.helium.checktools.HeliumToolsCheckerMain -config "$HELIUM_HOME/config/helium.basic.tools.config"
+
+    if [ $? -eq 0 ] ; then
+        exec ant -Dpython.cachedir=$PYTHON_CACHEDIR -Dhelium.dir=$HELIUM_HOME -Dpython.path=$JYTHONPATH -Dcache.dir=$HELIUM_CACHE_DIR $*
+    else
+        exit 1
+    fi    
+fi   

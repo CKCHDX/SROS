@@ -1,0 +1,30 @@
+/*
+* Copyright (c) 2004 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:   iby file of the PKCS12
+*
+*/
+
+
+
+#ifndef __PKCS12_IBY
+#define __PKCS12_IBY
+#include <bldvariant.hrh>
+
+file=ABI_DIR\BUILD_DIR\crber.dll       SHARED_LIB_DIR\crber.dll	
+file=ABI_DIR\BUILD_DIR\crpkcs12.dll    SHARED_LIB_DIR\crpkcs12.dll
+ECOM_PLUGIN(PKCS12Recognizer.dll, 101F8714.rsc)
+
+#endif  // __PKCS12_IBY
+
+//  End of File  

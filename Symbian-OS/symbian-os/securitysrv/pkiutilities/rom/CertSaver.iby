@@ -1,0 +1,26 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*
+*/
+
+
+#ifndef __CERTSAVER_IBY__
+#define __CERTSAVER_IBY__
+
+file=ABI_DIR\BUILD_DIR\CERTSAVER.exe        PROGRAMS_DIR\CERTSAVER.exe
+
+data=ZSYSTEM\..\PRIVATE\10003A3F\APPS\CERTSAVER_reg.rsc Private\10003a3f\apps\CERTSAVER_reg.rsc
+
+#endif

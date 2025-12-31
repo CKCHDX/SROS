@@ -1,0 +1,5 @@
+EXPORTS
+	?Close@RIntegrityCheckClient@@QAEXXZ @ 1 NONAME ; void RIntegrityCheckClient::Close(void)
+	?Connect@RIntegrityCheckClient@@QAEHXZ @ 2 NONAME ; int RIntegrityCheckClient::Connect(void)
+	?GetSWBootReason@RIntegrityCheckClient@@QAEHAAH@Z @ 3 NONAME ; int RIntegrityCheckClient::GetSWBootReason(int &)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="7598cbaa02c1dd1539c39e3477dfc6de" dataversion="1.0">
+  <name>X509CertNameParser API</name>
+  <description>Extracts relevant information for user from x.509 certificate</description>
+  <type>c++</type>
+  <subsystem>pkiutilities</subsystem>
+  <libs>
+    <lib name="x509certnameparser.lib" />
+  </libs>
+  <release category="domain"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>yes</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

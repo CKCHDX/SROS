@@ -1,0 +1,347 @@
+EXPORTS
+	??0CCMSAttribute@@IAE@XZ @ 1 NONAME ; CCMSAttribute::CCMSAttribute(void)
+	??0CCMSAuthenticatedData@@IAE@XZ @ 2 NONAME ; CCMSAuthenticatedData::CCMSAuthenticatedData(void)
+	??0CCMSCertificateChoices@@IAE@XZ @ 3 NONAME ; CCMSCertificateChoices::CCMSCertificateChoices(void)
+	??0CCMSContentInfo@@IAE@XZ @ 4 NONAME ; CCMSContentInfo::CCMSContentInfo(void)
+	??0CCMSEncapsulatedContentInfo@@IAE@XZ @ 5 NONAME ; CCMSEncapsulatedContentInfo::CCMSEncapsulatedContentInfo(void)
+	??0CCMSIssuerAndSerialNumber@@IAE@XZ @ 6 NONAME ; CCMSIssuerAndSerialNumber::CCMSIssuerAndSerialNumber(void)
+	??0CCMSKEKRecipientInfo@@IAE@XZ @ 7 NONAME ; CCMSKEKRecipientInfo::CCMSKEKRecipientInfo(void)
+	??0CCMSKeyAgreeRecipientInfo@@IAE@XZ @ 8 NONAME ; CCMSKeyAgreeRecipientInfo::CCMSKeyAgreeRecipientInfo(void)
+	??0CCMSKeyIdentifier@@IAE@XZ @ 9 NONAME ; CCMSKeyIdentifier::CCMSKeyIdentifier(void)
+	??0CCMSKeyTransRecipientInfo@@IAE@H@Z @ 10 NONAME ; CCMSKeyTransRecipientInfo::CCMSKeyTransRecipientInfo(int)
+	??0CCMSOriginatorIdentifierOrKey@@IAE@XZ @ 11 NONAME ; CCMSOriginatorIdentifierOrKey::CCMSOriginatorIdentifierOrKey(void)
+	??0CCMSOriginatorInfo@@IAE@XZ @ 12 NONAME ; CCMSOriginatorInfo::CCMSOriginatorInfo(void)
+	??0CCMSOriginatorPublicKey@@IAE@XZ @ 13 NONAME ; CCMSOriginatorPublicKey::CCMSOriginatorPublicKey(void)
+	??0CCMSRecipientEncryptedKey@@IAE@XZ @ 14 NONAME ; CCMSRecipientEncryptedKey::CCMSRecipientEncryptedKey(void)
+	??0CCMSSignedData@@IAE@XZ @ 15 NONAME ; CCMSSignedData::CCMSSignedData(void)
+	??0CCMSSignerInfo@@IAE@XZ @ 16 NONAME ; CCMSSignerInfo::CCMSSignerInfo(void)
+	??0CCMSX509AlgorithmIdentifier@@IAE@XZ @ 17 NONAME ; CCMSX509AlgorithmIdentifier::CCMSX509AlgorithmIdentifier(void)
+	??0CCMSX509AttributeCertificate@@IAE@XZ @ 18 NONAME ; CCMSX509AttributeCertificate::CCMSX509AttributeCertificate(void)
+	??0CCMSX509AttributeCertificateInfo@@IAE@XZ @ 19 NONAME ; CCMSX509AttributeCertificateInfo::CCMSX509AttributeCertificateInfo(void)
+	??0CCMSX509Certificate@@IAE@XZ @ 20 NONAME ; CCMSX509Certificate::CCMSX509Certificate(void)
+	??0CCMSX509CertificateList@@IAE@XZ @ 21 NONAME ; CCMSX509CertificateList::CCMSX509CertificateList(void)
+	??0CCMSX509CertificateListParameters@@QAE@XZ @ 22 NONAME ; CCMSX509CertificateListParameters::CCMSX509CertificateListParameters(void)
+	??0CCMSX509GeneralName@@IAE@XZ @ 23 NONAME ; CCMSX509GeneralName::CCMSX509GeneralName(void)
+	??0CCMSX509GeneralNames@@IAE@XZ @ 24 NONAME ; CCMSX509GeneralNames::CCMSX509GeneralNames(void)
+	??0CCMSX509IssuerSerial@@IAE@H@Z @ 25 NONAME ; CCMSX509IssuerSerial::CCMSX509IssuerSerial(int)
+	??0CCMSX509RevokedCertificate@@QAE@XZ @ 26 NONAME ; CCMSX509RevokedCertificate::CCMSX509RevokedCertificate(void)
+	??0CCMSX509SubjectPublicKeyInfo@@IAE@XZ @ 27 NONAME ; CCMSX509SubjectPublicKeyInfo::CCMSX509SubjectPublicKeyInfo(void)
+	??0CCMSX509Validity@@IAE@ABVTTime@@0@Z @ 28 NONAME ; CCMSX509Validity::CCMSX509Validity(class TTime const &, class TTime const &)
+	??0CCMSX509Validity@@IAE@XZ @ 29 NONAME ; CCMSX509Validity::CCMSX509Validity(void)
+	?Algorithm@CCMSOriginatorPublicKey@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 30 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSOriginatorPublicKey::Algorithm(void) const
+	?Algorithm@CCMSX509SubjectPublicKeyInfo@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 31 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSX509SubjectPublicKeyInfo::Algorithm(void) const
+	?AlgorithmIdentifier@CCMSX509AlgorithmIdentifier@@QBEABVCAlgorithmIdentifier@@XZ @ 32 NONAME ; class CAlgorithmIdentifier const & CCMSX509AlgorithmIdentifier::AlgorithmIdentifier(void) const
+	?AlgorithmIdentifier@CCMSX509Signed@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 33 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSX509Signed::AlgorithmIdentifier(void) const
+	?AttrCert@CCMSCertificateChoices@@QBEPBVCCMSX509AttributeCertificate@@XZ @ 34 NONAME ; class CCMSX509AttributeCertificate const * CCMSCertificateChoices::AttrCert(void) const
+	?AttributeType@CCMSAttribute@@QBEABVTDesC16@@XZ @ 35 NONAME ; class TDesC16 const & CCMSAttribute::AttributeType(void) const
+	?AttributeValues@CCMSAttribute@@QBEABVCDesC8Array@@XZ @ 36 NONAME ; class CDesC8Array const & CCMSAttribute::AttributeValues(void) const
+	?Attributes@CCMSX509AttributeCertificateInfo@@QBEABV?$CArrayPtr@VCCMSAttribute@@@@XZ @ 37 NONAME ; class CArrayPtr<class CCMSAttribute> const & CCMSX509AttributeCertificateInfo::Attributes(void) const
+	?AuthenticatedAttributes@CCMSAuthenticatedData@@QBEPBV?$CArrayPtr@VCCMSAttribute@@@@XZ @ 38 NONAME ; class CArrayPtr<class CCMSAttribute> const * CCMSAuthenticatedData::AuthenticatedAttributes(void) const
+	?BaseCertificateID@CCMSX509AttributeCertificateInfo@@QBEPBVCCMSX509IssuerSerial@@XZ @ 39 NONAME ; class CCMSX509IssuerSerial const * CCMSX509AttributeCertificateInfo::BaseCertificateID(void) const
+	?CMSVersion@CCMSSignerInfo@@QBEHXZ @ 40 NONAME ; int CCMSSignerInfo::CMSVersion(void) const
+	?Certificate@CCMSCertificateChoices@@QBEPBVCCMSX509Certificate@@XZ @ 41 NONAME ; class CCMSX509Certificate const * CCMSCertificateChoices::Certificate(void) const
+	?Certificates@CCMSSignedData@@QBEPBV?$CArrayPtr@VCCMSCertificateChoices@@@@XZ @ 42 NONAME ; class CArrayPtr<class CCMSCertificateChoices> const * CCMSSignedData::Certificates(void) const
+	?Certs@CCMSOriginatorInfo@@QBEPBV?$CArrayPtr@VCCMSCertificateChoices@@@@XZ @ 43 NONAME ; class CArrayPtr<class CCMSCertificateChoices> const * CCMSOriginatorInfo::Certs(void) const
+	?ConstructL@CCMSAttribute@@IAEXABVTDesC16@@ABVCDesC8Array@@@Z @ 44 NONAME ; void CCMSAttribute::ConstructL(class TDesC16 const &, class CDesC8Array const &)
+	?ConstructL@CCMSAttribute@@IAEXABVTDesC16@@ABVTDesC8@@@Z @ 45 NONAME ; void CCMSAttribute::ConstructL(class TDesC16 const &, class TDesC8 const &)
+	?ConstructL@CCMSAttribute@@IAEXXZ @ 46 NONAME ; void CCMSAttribute::ConstructL(void)
+	?ConstructL@CCMSAuthenticatedData@@IAEXPAV?$CArrayPtr@VCCMSRecipientInfo@@@@PAVCCMSX509AlgorithmIdentifier@@PAVCCMSEncapsulatedContentInfo@@ABVTDesC8@@@Z @ 47 NONAME ; void CCMSAuthenticatedData::ConstructL(class CArrayPtr<class CCMSRecipientInfo> *, class CCMSX509AlgorithmIdentifier *, class CCMSEncapsulatedContentInfo *, class TDesC8 const &)
+	?ConstructL@CCMSAuthenticatedData@@IAEXXZ @ 48 NONAME ; void CCMSAuthenticatedData::ConstructL(void)
+	?ConstructL@CCMSCertificateChoices@@IAEXABVCCMSX509AttributeCertificate@@@Z @ 49 NONAME ; void CCMSCertificateChoices::ConstructL(class CCMSX509AttributeCertificate const &)
+	?ConstructL@CCMSCertificateChoices@@IAEXABVCCMSX509Certificate@@@Z @ 50 NONAME ; void CCMSCertificateChoices::ConstructL(class CCMSX509Certificate const &)
+	?ConstructL@CCMSContentInfo@@IAEXABVTDesC16@@@Z @ 51 NONAME ; void CCMSContentInfo::ConstructL(class TDesC16 const &)
+	?ConstructL@CCMSContentInfo@@IAEXABVTDesC16@@ABVTDesC8@@@Z @ 52 NONAME ; void CCMSContentInfo::ConstructL(class TDesC16 const &, class TDesC8 const &)
+	?ConstructL@CCMSContentInfo@@IAEXXZ @ 53 NONAME ; void CCMSContentInfo::ConstructL(void)
+	?ConstructL@CCMSEncapsulatedContentInfo@@IAEXABVTDesC16@@PBVTDesC8@@@Z @ 54 NONAME ; void CCMSEncapsulatedContentInfo::ConstructL(class TDesC16 const &, class TDesC8 const *)
+	?ConstructL@CCMSEncapsulatedContentInfo@@IAEXXZ @ 55 NONAME ; void CCMSEncapsulatedContentInfo::ConstructL(void)
+	?ConstructL@CCMSIssuerAndSerialNumber@@IAEXABVCX500DistinguishedName@@ABVTDesC8@@@Z @ 56 NONAME ; void CCMSIssuerAndSerialNumber::ConstructL(class CX500DistinguishedName const &, class TDesC8 const &)
+	?ConstructL@CCMSKEKRecipientInfo@@IAEXABVCCMSKeyIdentifier@@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 57 NONAME ; void CCMSKEKRecipientInfo::ConstructL(class CCMSKeyIdentifier const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSKeyAgreeRecipientInfo@@IAEXABVCCMSOriginatorIdentifierOrKey@@ABVCCMSX509AlgorithmIdentifier@@ABV?$CArrayPtr@VCCMSRecipientEncryptedKey@@@@@Z @ 58 NONAME ; void CCMSKeyAgreeRecipientInfo::ConstructL(class CCMSOriginatorIdentifierOrKey const &, class CCMSX509AlgorithmIdentifier const &, class CArrayPtr<class CCMSRecipientEncryptedKey> const &)
+	?ConstructL@CCMSKeyAgreeRecipientInfo@@IAEXABVCCMSOriginatorIdentifierOrKey@@ABVTDesC8@@ABVCCMSX509AlgorithmIdentifier@@ABV?$CArrayPtr@VCCMSRecipientEncryptedKey@@@@@Z @ 59 NONAME ; void CCMSKeyAgreeRecipientInfo::ConstructL(class CCMSOriginatorIdentifierOrKey const &, class TDesC8 const &, class CCMSX509AlgorithmIdentifier const &, class CArrayPtr<class CCMSRecipientEncryptedKey> const &)
+	?ConstructL@CCMSKeyAgreeRecipientInfo@@IAEXXZ @ 60 NONAME ; void CCMSKeyAgreeRecipientInfo::ConstructL(void)
+	?ConstructL@CCMSKeyIdentifier@@IAEXABVTDesC8@@@Z @ 61 NONAME ; void CCMSKeyIdentifier::ConstructL(class TDesC8 const &)
+	?ConstructL@CCMSKeyIdentifier@@IAEXABVTDesC8@@ABVTTime@@@Z @ 62 NONAME ; void CCMSKeyIdentifier::ConstructL(class TDesC8 const &, class TTime const &)
+	?ConstructL@CCMSKeyTransRecipientInfo@@IAEXABVCCMSIssuerAndSerialNumber@@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 63 NONAME ; void CCMSKeyTransRecipientInfo::ConstructL(class CCMSIssuerAndSerialNumber const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSKeyTransRecipientInfo@@IAEXABVTDesC8@@ABVCCMSX509AlgorithmIdentifier@@0@Z @ 64 NONAME ; void CCMSKeyTransRecipientInfo::ConstructL(class TDesC8 const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSOriginatorIdentifierOrKey@@IAEXABVCCMSIssuerAndSerialNumber@@@Z @ 65 NONAME ; void CCMSOriginatorIdentifierOrKey::ConstructL(class CCMSIssuerAndSerialNumber const &)
+	?ConstructL@CCMSOriginatorIdentifierOrKey@@IAEXABVCCMSOriginatorPublicKey@@@Z @ 66 NONAME ; void CCMSOriginatorIdentifierOrKey::ConstructL(class CCMSOriginatorPublicKey const &)
+	?ConstructL@CCMSOriginatorIdentifierOrKey@@IAEXABVTDesC8@@@Z @ 67 NONAME ; void CCMSOriginatorIdentifierOrKey::ConstructL(class TDesC8 const &)
+	?ConstructL@CCMSOriginatorPublicKey@@IAEXABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 68 NONAME ; void CCMSOriginatorPublicKey::ConstructL(class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSRecipientEncryptedKey@@IAEXABVCCMSIssuerAndSerialNumber@@ABVTDesC8@@@Z @ 69 NONAME ; void CCMSRecipientEncryptedKey::ConstructL(class CCMSIssuerAndSerialNumber const &, class TDesC8 const &)
+	?ConstructL@CCMSRecipientEncryptedKey@@IAEXABVCCMSKeyIdentifier@@ABVTDesC8@@@Z @ 70 NONAME ; void CCMSRecipientEncryptedKey::ConstructL(class CCMSKeyIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSSignedData@@IAEXABV?$CArrayPtr@VCCMSX509AlgorithmIdentifier@@@@ABVCCMSEncapsulatedContentInfo@@ABV?$CArrayPtr@VCCMSSignerInfo@@@@PBV?$CArrayPtr@VCCMSCertificateChoices@@@@PBV?$CArrayPtr@VCCMSX509CertificateList@@@@@Z @ 71 NONAME ; void CCMSSignedData::ConstructL(class CArrayPtr<class CCMSX509AlgorithmIdentifier> const &, class CCMSEncapsulatedContentInfo const &, class CArrayPtr<class CCMSSignerInfo> const &, class CArrayPtr<class CCMSCertificateChoices> const *, class CArrayPtr<class CCMSX509CertificateList> const *)
+	?ConstructL@CCMSSignedData@@IAEXXZ @ 72 NONAME ; void CCMSSignedData::ConstructL(void)
+	?ConstructL@CCMSSignerInfo@@IAEXABVCCMSX509Certificate@@ABVTDesC8@@@Z @ 73 NONAME ; void CCMSSignerInfo::ConstructL(class CCMSX509Certificate const &, class TDesC8 const &)
+	?ConstructL@CCMSSignerInfo@@IAEXABVTDesC8@@00@Z @ 74 NONAME ; void CCMSSignerInfo::ConstructL(class TDesC8 const &, class TDesC8 const &, class TDesC8 const &)
+	?ConstructL@CCMSX509AlgorithmIdentifier@@IAEXABVCAlgorithmIdentifier@@@Z @ 75 NONAME ; void CCMSX509AlgorithmIdentifier::ConstructL(class CAlgorithmIdentifier const &)
+	?ConstructL@CCMSX509AlgorithmIdentifier@@IAEXABW4TAlgorithmId@@@Z @ 76 NONAME ; void CCMSX509AlgorithmIdentifier::ConstructL(enum TAlgorithmId const &)
+	?ConstructL@CCMSX509AttributeCertificate@@IAEXABVCCMSX509AttributeCertificateInfo@@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 77 NONAME ; void CCMSX509AttributeCertificate::ConstructL(class CCMSX509AttributeCertificateInfo const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSX509AttributeCertificate@@IAEXXZ @ 78 NONAME ; void CCMSX509AttributeCertificate::ConstructL(void)
+	?ConstructL@CCMSX509AttributeCertificateInfo@@IAEXABVCCMSX509GeneralNames@@0ABVCCMSX509AlgorithmIdentifier@@HABVTTime@@2ABV?$CArrayPtr@VCCMSAttribute@@@@@Z @ 79 NONAME ; void CCMSX509AttributeCertificateInfo::ConstructL(class CCMSX509GeneralNames const &, class CCMSX509GeneralNames const &, class CCMSX509AlgorithmIdentifier const &, int, class TTime const &, class TTime const &, class CArrayPtr<class CCMSAttribute> const &)
+	?ConstructL@CCMSX509AttributeCertificateInfo@@IAEXABVCCMSX509IssuerSerial@@ABVCCMSX509GeneralNames@@ABVCCMSX509AlgorithmIdentifier@@HABVTTime@@3ABV?$CArrayPtr@VCCMSAttribute@@@@@Z @ 80 NONAME ; void CCMSX509AttributeCertificateInfo::ConstructL(class CCMSX509IssuerSerial const &, class CCMSX509GeneralNames const &, class CCMSX509AlgorithmIdentifier const &, int, class TTime const &, class TTime const &, class CArrayPtr<class CCMSAttribute> const &)
+	?ConstructL@CCMSX509AttributeCertificateInfo@@IAEXXZ @ 81 NONAME ; void CCMSX509AttributeCertificateInfo::ConstructL(void)
+	?ConstructL@CCMSX509Certificate@@IAEXABVCX509Certificate@@@Z @ 82 NONAME ; void CCMSX509Certificate::ConstructL(class CX509Certificate const &)
+	?ConstructL@CCMSX509Certificate@@IAEXABVTDesC8@@ABVCCMSX509AlgorithmIdentifier@@ABVCX500DistinguishedName@@ABVCCMSX509Validity@@2ABVCCMSX509SubjectPublicKeyInfo@@10@Z @ 83 NONAME ; void CCMSX509Certificate::ConstructL(class TDesC8 const &, class CCMSX509AlgorithmIdentifier const &, class CX500DistinguishedName const &, class CCMSX509Validity const &, class CX500DistinguishedName const &, class CCMSX509SubjectPublicKeyInfo const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSX509Certificate@@IAEXXZ @ 84 NONAME ; void CCMSX509Certificate::ConstructL(void)
+	?ConstructL@CCMSX509CertificateList@@IAEXABVCX509Certificate@@ABV?$CArrayPtrFlat@VCX509Certificate@@@@@Z @ 85 NONAME ; void CCMSX509CertificateList::ConstructL(class CX509Certificate const &, class CArrayPtrFlat<class CX509Certificate> const &)
+	?ConstructL@CCMSX509CertificateList@@IAEXXZ @ 86 NONAME ; void CCMSX509CertificateList::ConstructL(void)
+	?ConstructL@CCMSX509GeneralName@@IAEXIABVTDesC8@@@Z @ 87 NONAME ; void CCMSX509GeneralName::ConstructL(unsigned int, class TDesC8 const &)
+	?ConstructL@CCMSX509GeneralNames@@IAEXABV?$CArrayPtr@VCCMSX509GeneralName@@@@@Z @ 88 NONAME ; void CCMSX509GeneralNames::ConstructL(class CArrayPtr<class CCMSX509GeneralName> const &)
+	?ConstructL@CCMSX509IssuerSerial@@IAEXABVCCMSX509GeneralNames@@@Z @ 89 NONAME ; void CCMSX509IssuerSerial::ConstructL(class CCMSX509GeneralNames const &)
+	?ConstructL@CCMSX509IssuerSerial@@IAEXABVCCMSX509GeneralNames@@ABVTDesC8@@@Z @ 90 NONAME ; void CCMSX509IssuerSerial::ConstructL(class CCMSX509GeneralNames const &, class TDesC8 const &)
+	?ConstructL@CCMSX509SubjectPublicKeyInfo@@IAEXABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 91 NONAME ; void CCMSX509SubjectPublicKeyInfo::ConstructL(class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?ConstructL@CCMSX509SubjectPublicKeyInfo@@IAEXABVCSubjectPublicKeyInfo@@@Z @ 92 NONAME ; void CCMSX509SubjectPublicKeyInfo::ConstructL(class CSubjectPublicKeyInfo const &)
+	?ConstructL@CCMSX509SubjectPublicKeyInfo@@IAEXXZ @ 93 NONAME ; void CCMSX509SubjectPublicKeyInfo::ConstructL(void)
+	?Content@CCMSContentInfo@@QBEABVTDesC8@@XZ @ 94 NONAME ; class TDesC8 const & CCMSContentInfo::Content(void) const
+	?Content@CCMSEncapsulatedContentInfo@@QBEPBVTDesC8@@XZ @ 95 NONAME ; class TDesC8 const * CCMSEncapsulatedContentInfo::Content(void) const
+	?ContentType@CCMSContentInfo@@QBEABVTDesC16@@XZ @ 96 NONAME ; class TDesC16 const & CCMSContentInfo::ContentType(void) const
+	?CreateDerEncodingL@CCMSSequence@@KAPAVHBufC8@@PAVCASN1EncBase@@@Z @ 97 NONAME ; class HBufC8 * CCMSSequence::CreateDerEncodingL(class CASN1EncBase *)
+	?Crls@CCMSOriginatorInfo@@QBEPBV?$CArrayPtr@VCCMSX509CertificateList@@@@XZ @ 98 NONAME ; class CArrayPtr<class CCMSX509CertificateList> const * CCMSOriginatorInfo::Crls(void) const
+	?Data@CCMSX509GeneralName@@QBEABVTDesC8@@XZ @ 99 NONAME ; class TDesC8 const & CCMSX509GeneralName::Data(void) const
+	?Date@CCMSKeyIdentifier@@QBEPBVTTime@@XZ @ 100 NONAME ; class TTime const * CCMSKeyIdentifier::Date(void) const
+	?DecodeSequenceLC@CCMSSequence@@KAPAV?$CArrayPtr@VTASN1DecGeneric@@@@ABVTDesC8@@@Z @ 101 NONAME ; class CArrayPtr<class TASN1DecGeneric> * CCMSSequence::DecodeSequenceLC(class TDesC8 const &)
+	?DecodeSequenceLC@CCMSSequence@@KAPAV?$CArrayPtr@VTASN1DecGeneric@@@@ABVTDesC8@@HH@Z @ 102 NONAME ; class CArrayPtr<class TASN1DecGeneric> * CCMSSequence::DecodeSequenceLC(class TDesC8 const &, int, int)
+	?DigestAlgorithm@CCMSAuthenticatedData@@QBEPBVCCMSX509AlgorithmIdentifier@@XZ @ 103 NONAME ; class CCMSX509AlgorithmIdentifier const * CCMSAuthenticatedData::DigestAlgorithm(void) const
+	?DigestAlgorithm@CCMSX509AlgorithmIdentifier@@QBEPBVCAlgorithmIdentifier@@XZ @ 104 NONAME ; class CAlgorithmIdentifier const * CCMSX509AlgorithmIdentifier::DigestAlgorithm(void) const
+	?DigestAlgorithmIdentifier@CCMSSignerInfo@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 105 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSSignerInfo::DigestAlgorithmIdentifier(void) const
+	?DigestAlgorithmIdentifiers@CCMSSignedData@@QBEABV?$CArrayPtr@VCCMSX509AlgorithmIdentifier@@@@XZ @ 106 NONAME ; class CArrayPtr<class CCMSX509AlgorithmIdentifier> const & CCMSSignedData::DigestAlgorithmIdentifiers(void) const
+	?EncapContentInfo@CCMSAuthenticatedData@@QBEABVCCMSEncapsulatedContentInfo@@XZ @ 107 NONAME ; class CCMSEncapsulatedContentInfo const & CCMSAuthenticatedData::EncapContentInfo(void) const
+	?EncapsulatedContentInfo@CCMSSignedData@@QBEABVCCMSEncapsulatedContentInfo@@XZ @ 108 NONAME ; class CCMSEncapsulatedContentInfo const & CCMSSignedData::EncapsulatedContentInfo(void) const
+	?Encrypted@CCMSX509Signed@@QBEABVTDesC8@@XZ @ 109 NONAME ; class TDesC8 const & CCMSX509Signed::Encrypted(void) const
+	?EncryptedKey@CCMSKEKRecipientInfo@@QBEABVTDesC8@@XZ @ 110 NONAME ; class TDesC8 const & CCMSKEKRecipientInfo::EncryptedKey(void) const
+	?EncryptedKey@CCMSKeyTransRecipientInfo@@QBEABVTDesC8@@XZ @ 111 NONAME ; class TDesC8 const & CCMSKeyTransRecipientInfo::EncryptedKey(void) const
+	?EncryptedKey@CCMSRecipientEncryptedKey@@QBEABVTDesC8@@XZ @ 112 NONAME ; class TDesC8 const & CCMSRecipientEncryptedKey::EncryptedKey(void) const
+	?GeneralNames@CCMSX509GeneralNames@@QBEABV?$CArrayPtr@VCCMSX509GeneralName@@@@XZ @ 113 NONAME ; class CArrayPtr<class CCMSX509GeneralName> const & CCMSX509GeneralNames::GeneralNames(void) const
+	?Info@CCMSX509AttributeCertificate@@QBEABVCCMSX509AttributeCertificateInfo@@XZ @ 114 NONAME ; class CCMSX509AttributeCertificateInfo const & CCMSX509AttributeCertificate::Info(void) const
+	?Issuer@CCMSX509AttributeCertificateInfo@@QBEABVCCMSX509GeneralNames@@XZ @ 115 NONAME ; class CCMSX509GeneralNames const & CCMSX509AttributeCertificateInfo::Issuer(void) const
+	?Issuer@CCMSX509Certificate@@QBEABVCX500DistinguishedName@@XZ @ 116 NONAME ; class CX500DistinguishedName const & CCMSX509Certificate::Issuer(void) const
+	?Issuer@CCMSX509IssuerSerial@@QBEABVCCMSX509GeneralNames@@XZ @ 117 NONAME ; class CCMSX509GeneralNames const & CCMSX509IssuerSerial::Issuer(void) const
+	?IssuerAndSerialNumber@CCMSKeyTransRecipientInfo@@QBEPBVCCMSIssuerAndSerialNumber@@XZ @ 118 NONAME ; class CCMSIssuerAndSerialNumber const * CCMSKeyTransRecipientInfo::IssuerAndSerialNumber(void) const
+	?IssuerAndSerialNumber@CCMSRecipientEncryptedKey@@QBEPBVCCMSIssuerAndSerialNumber@@XZ @ 119 NONAME ; class CCMSIssuerAndSerialNumber const * CCMSRecipientEncryptedKey::IssuerAndSerialNumber(void) const
+	?IssuerAndSerialNumber@CCMSSignerInfo@@QBEPBVCCMSIssuerAndSerialNumber@@XZ @ 120 NONAME ; class CCMSIssuerAndSerialNumber const * CCMSSignerInfo::IssuerAndSerialNumber(void) const
+	?IssuerAndSerialNumberL@CCMSOriginatorIdentifierOrKey@@QBEABVCCMSIssuerAndSerialNumber@@XZ @ 121 NONAME ; class CCMSIssuerAndSerialNumber const & CCMSOriginatorIdentifierOrKey::IssuerAndSerialNumberL(void) const
+	?IssuerName@CCMSIssuerAndSerialNumber@@QBEABVCX500DistinguishedName@@XZ @ 122 NONAME ; class CX500DistinguishedName const & CCMSIssuerAndSerialNumber::IssuerName(void) const
+	?IssuerUID@CCMSX509IssuerSerial@@QBEPBVTDesC8@@XZ @ 123 NONAME ; class TDesC8 const * CCMSX509IssuerSerial::IssuerUID(void) const
+	?IssuerUniqueID@CCMSX509AttributeCertificateInfo@@QBEPBVTDesC8@@XZ @ 124 NONAME ; class TDesC8 const * CCMSX509AttributeCertificateInfo::IssuerUniqueID(void) const
+	?IssuerUniqueIdentifier@CCMSX509Certificate@@QBEPBVTDesC8@@XZ @ 125 NONAME ; class TDesC8 const * CCMSX509Certificate::IssuerUniqueIdentifier(void) const
+	?Kekid@CCMSKEKRecipientInfo@@QBEABVCCMSKeyIdentifier@@XZ @ 126 NONAME ; class CCMSKeyIdentifier const & CCMSKEKRecipientInfo::Kekid(void) const
+	?KeyEncryptionAlgorithm@CCMSRecipientInfo@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 127 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSRecipientInfo::KeyEncryptionAlgorithm(void) const
+	?KeyIdentifier@CCMSKeyIdentifier@@QBEABVTDesC8@@XZ @ 128 NONAME ; class TDesC8 const & CCMSKeyIdentifier::KeyIdentifier(void) const
+	?Mac@CCMSAuthenticatedData@@QBEABVTDesC8@@XZ @ 129 NONAME ; class TDesC8 const & CCMSAuthenticatedData::Mac(void) const
+	?MacAlgorithm@CCMSAuthenticatedData@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 130 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSAuthenticatedData::MacAlgorithm(void) const
+	?NewL@CCMSAttribute@@SAPAV1@ABVTDesC16@@ABVCDesC8Array@@@Z @ 131 NONAME ; class CCMSAttribute * CCMSAttribute::NewL(class TDesC16 const &, class CDesC8Array const &)
+	?NewL@CCMSAttribute@@SAPAV1@ABVTDesC16@@ABVTDesC8@@@Z @ 132 NONAME ; class CCMSAttribute * CCMSAttribute::NewL(class TDesC16 const &, class TDesC8 const &)
+	?NewL@CCMSAttribute@@SAPAV1@XZ @ 133 NONAME ; class CCMSAttribute * CCMSAttribute::NewL(void)
+	?NewL@CCMSCertificateChoices@@SAPAV1@ABVCCMSX509AttributeCertificate@@@Z @ 134 NONAME ; class CCMSCertificateChoices * CCMSCertificateChoices::NewL(class CCMSX509AttributeCertificate const &)
+	?NewL@CCMSCertificateChoices@@SAPAV1@ABVCCMSX509Certificate@@@Z @ 135 NONAME ; class CCMSCertificateChoices * CCMSCertificateChoices::NewL(class CCMSX509Certificate const &)
+	?NewL@CCMSCertificateChoices@@SAPAV1@XZ @ 136 NONAME ; class CCMSCertificateChoices * CCMSCertificateChoices::NewL(void)
+	?NewL@CCMSEncapsulatedContentInfo@@SAPAV1@ABVTDesC16@@PBVTDesC8@@@Z @ 137 NONAME ; class CCMSEncapsulatedContentInfo * CCMSEncapsulatedContentInfo::NewL(class TDesC16 const &, class TDesC8 const *)
+	?NewL@CCMSEncapsulatedContentInfo@@SAPAV1@XZ @ 138 NONAME ; class CCMSEncapsulatedContentInfo * CCMSEncapsulatedContentInfo::NewL(void)
+	?NewL@CCMSIssuerAndSerialNumber@@SAPAV1@ABVCX500DistinguishedName@@ABVTDesC8@@@Z @ 139 NONAME ; class CCMSIssuerAndSerialNumber * CCMSIssuerAndSerialNumber::NewL(class CX500DistinguishedName const &, class TDesC8 const &)
+	?NewL@CCMSIssuerAndSerialNumber@@SAPAV1@XZ @ 140 NONAME ; class CCMSIssuerAndSerialNumber * CCMSIssuerAndSerialNumber::NewL(void)
+	?NewL@CCMSKEKRecipientInfo@@SAPAV1@ABVCCMSKeyIdentifier@@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 141 NONAME ; class CCMSKEKRecipientInfo * CCMSKEKRecipientInfo::NewL(class CCMSKeyIdentifier const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSKEKRecipientInfo@@SAPAV1@XZ @ 142 NONAME ; class CCMSKEKRecipientInfo * CCMSKEKRecipientInfo::NewL(void)
+	?NewL@CCMSKeyAgreeRecipientInfo@@SAPAV1@ABVCCMSOriginatorIdentifierOrKey@@ABVCCMSX509AlgorithmIdentifier@@ABV?$CArrayPtr@VCCMSRecipientEncryptedKey@@@@@Z @ 143 NONAME ; class CCMSKeyAgreeRecipientInfo * CCMSKeyAgreeRecipientInfo::NewL(class CCMSOriginatorIdentifierOrKey const &, class CCMSX509AlgorithmIdentifier const &, class CArrayPtr<class CCMSRecipientEncryptedKey> const &)
+	?NewL@CCMSKeyAgreeRecipientInfo@@SAPAV1@ABVCCMSOriginatorIdentifierOrKey@@ABVTDesC8@@ABVCCMSX509AlgorithmIdentifier@@ABV?$CArrayPtr@VCCMSRecipientEncryptedKey@@@@@Z @ 144 NONAME ; class CCMSKeyAgreeRecipientInfo * CCMSKeyAgreeRecipientInfo::NewL(class CCMSOriginatorIdentifierOrKey const &, class TDesC8 const &, class CCMSX509AlgorithmIdentifier const &, class CArrayPtr<class CCMSRecipientEncryptedKey> const &)
+	?NewL@CCMSKeyAgreeRecipientInfo@@SAPAV1@XZ @ 145 NONAME ; class CCMSKeyAgreeRecipientInfo * CCMSKeyAgreeRecipientInfo::NewL(void)
+	?NewL@CCMSKeyIdentifier@@SAPAV1@ABVTDesC8@@@Z @ 146 NONAME ; class CCMSKeyIdentifier * CCMSKeyIdentifier::NewL(class TDesC8 const &)
+	?NewL@CCMSKeyIdentifier@@SAPAV1@ABVTDesC8@@ABVTTime@@@Z @ 147 NONAME ; class CCMSKeyIdentifier * CCMSKeyIdentifier::NewL(class TDesC8 const &, class TTime const &)
+	?NewL@CCMSKeyIdentifier@@SAPAV1@XZ @ 148 NONAME ; class CCMSKeyIdentifier * CCMSKeyIdentifier::NewL(void)
+	?NewL@CCMSKeyTransRecipientInfo@@SAPAV1@ABVCCMSIssuerAndSerialNumber@@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 149 NONAME ; class CCMSKeyTransRecipientInfo * CCMSKeyTransRecipientInfo::NewL(class CCMSIssuerAndSerialNumber const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSKeyTransRecipientInfo@@SAPAV1@ABVTDesC8@@ABVCCMSX509AlgorithmIdentifier@@0@Z @ 150 NONAME ; class CCMSKeyTransRecipientInfo * CCMSKeyTransRecipientInfo::NewL(class TDesC8 const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSKeyTransRecipientInfo@@SAPAV1@XZ @ 151 NONAME ; class CCMSKeyTransRecipientInfo * CCMSKeyTransRecipientInfo::NewL(void)
+	?NewL@CCMSOriginatorIdentifierOrKey@@SAPAV1@ABVCCMSIssuerAndSerialNumber@@@Z @ 152 NONAME ; class CCMSOriginatorIdentifierOrKey * CCMSOriginatorIdentifierOrKey::NewL(class CCMSIssuerAndSerialNumber const &)
+	?NewL@CCMSOriginatorIdentifierOrKey@@SAPAV1@ABVCCMSOriginatorPublicKey@@@Z @ 153 NONAME ; class CCMSOriginatorIdentifierOrKey * CCMSOriginatorIdentifierOrKey::NewL(class CCMSOriginatorPublicKey const &)
+	?NewL@CCMSOriginatorIdentifierOrKey@@SAPAV1@ABVTDesC8@@@Z @ 154 NONAME ; class CCMSOriginatorIdentifierOrKey * CCMSOriginatorIdentifierOrKey::NewL(class TDesC8 const &)
+	?NewL@CCMSOriginatorIdentifierOrKey@@SAPAV1@XZ @ 155 NONAME ; class CCMSOriginatorIdentifierOrKey * CCMSOriginatorIdentifierOrKey::NewL(void)
+	?NewL@CCMSOriginatorInfo@@SAPAV1@XZ @ 156 NONAME ; class CCMSOriginatorInfo * CCMSOriginatorInfo::NewL(void)
+	?NewL@CCMSOriginatorPublicKey@@SAPAV1@ABV1@@Z @ 157 NONAME ; class CCMSOriginatorPublicKey * CCMSOriginatorPublicKey::NewL(class CCMSOriginatorPublicKey const &)
+	?NewL@CCMSOriginatorPublicKey@@SAPAV1@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 158 NONAME ; class CCMSOriginatorPublicKey * CCMSOriginatorPublicKey::NewL(class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSOriginatorPublicKey@@SAPAV1@XZ @ 159 NONAME ; class CCMSOriginatorPublicKey * CCMSOriginatorPublicKey::NewL(void)
+	?NewL@CCMSRecipientEncryptedKey@@SAPAV1@ABVCCMSIssuerAndSerialNumber@@ABVTDesC8@@@Z @ 160 NONAME ; class CCMSRecipientEncryptedKey * CCMSRecipientEncryptedKey::NewL(class CCMSIssuerAndSerialNumber const &, class TDesC8 const &)
+	?NewL@CCMSRecipientEncryptedKey@@SAPAV1@ABVCCMSKeyIdentifier@@ABVTDesC8@@@Z @ 161 NONAME ; class CCMSRecipientEncryptedKey * CCMSRecipientEncryptedKey::NewL(class CCMSKeyIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSRecipientEncryptedKey@@SAPAV1@XZ @ 162 NONAME ; class CCMSRecipientEncryptedKey * CCMSRecipientEncryptedKey::NewL(void)
+	?NewL@CCMSSignerInfo@@SAPAV1@ABVCCMSX509Certificate@@ABVTDesC8@@@Z @ 163 NONAME ; class CCMSSignerInfo * CCMSSignerInfo::NewL(class CCMSX509Certificate const &, class TDesC8 const &)
+	?NewL@CCMSSignerInfo@@SAPAV1@ABVTDesC8@@00@Z @ 164 NONAME ; class CCMSSignerInfo * CCMSSignerInfo::NewL(class TDesC8 const &, class TDesC8 const &, class TDesC8 const &)
+	?NewL@CCMSSignerInfo@@SAPAV1@XZ @ 165 NONAME ; class CCMSSignerInfo * CCMSSignerInfo::NewL(void)
+	?NewL@CCMSX509AlgorithmIdentifier@@SAPAV1@ABVCAlgorithmIdentifier@@0@Z @ 166 NONAME ; class CCMSX509AlgorithmIdentifier * CCMSX509AlgorithmIdentifier::NewL(class CAlgorithmIdentifier const &, class CAlgorithmIdentifier const &)
+	?NewL@CCMSX509AlgorithmIdentifier@@SAPAV1@ABVCAlgorithmIdentifier@@@Z @ 167 NONAME ; class CCMSX509AlgorithmIdentifier * CCMSX509AlgorithmIdentifier::NewL(class CAlgorithmIdentifier const &)
+	?NewL@CCMSX509AlgorithmIdentifier@@SAPAV1@ABW4TAlgorithmId@@@Z @ 168 NONAME ; class CCMSX509AlgorithmIdentifier * CCMSX509AlgorithmIdentifier::NewL(enum TAlgorithmId const &)
+	?NewL@CCMSX509AlgorithmIdentifier@@SAPAV1@XZ @ 169 NONAME ; class CCMSX509AlgorithmIdentifier * CCMSX509AlgorithmIdentifier::NewL(void)
+	?NewL@CCMSX509AttributeCertificate@@SAPAV1@ABVCCMSX509AttributeCertificateInfo@@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 170 NONAME ; class CCMSX509AttributeCertificate * CCMSX509AttributeCertificate::NewL(class CCMSX509AttributeCertificateInfo const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSX509AttributeCertificate@@SAPAV1@XZ @ 171 NONAME ; class CCMSX509AttributeCertificate * CCMSX509AttributeCertificate::NewL(void)
+	?NewL@CCMSX509AttributeCertificateInfo@@SAPAV1@ABVCCMSX509GeneralNames@@0ABVCCMSX509AlgorithmIdentifier@@HABVTTime@@2ABV?$CArrayPtr@VCCMSAttribute@@@@@Z @ 172 NONAME ; class CCMSX509AttributeCertificateInfo * CCMSX509AttributeCertificateInfo::NewL(class CCMSX509GeneralNames const &, class CCMSX509GeneralNames const &, class CCMSX509AlgorithmIdentifier const &, int, class TTime const &, class TTime const &, class CArrayPtr<class CCMSAttribute> const &)
+	?NewL@CCMSX509AttributeCertificateInfo@@SAPAV1@ABVCCMSX509IssuerSerial@@ABVCCMSX509GeneralNames@@ABVCCMSX509AlgorithmIdentifier@@HABVTTime@@3ABV?$CArrayPtr@VCCMSAttribute@@@@@Z @ 173 NONAME ; class CCMSX509AttributeCertificateInfo * CCMSX509AttributeCertificateInfo::NewL(class CCMSX509IssuerSerial const &, class CCMSX509GeneralNames const &, class CCMSX509AlgorithmIdentifier const &, int, class TTime const &, class TTime const &, class CArrayPtr<class CCMSAttribute> const &)
+	?NewL@CCMSX509AttributeCertificateInfo@@SAPAV1@XZ @ 174 NONAME ; class CCMSX509AttributeCertificateInfo * CCMSX509AttributeCertificateInfo::NewL(void)
+	?NewL@CCMSX509Certificate@@SAPAV1@ABVCX509Certificate@@@Z @ 175 NONAME ; class CCMSX509Certificate * CCMSX509Certificate::NewL(class CX509Certificate const &)
+	?NewL@CCMSX509Certificate@@SAPAV1@ABVTDesC8@@ABVCCMSX509AlgorithmIdentifier@@ABVCX500DistinguishedName@@ABVCCMSX509Validity@@2ABVCCMSX509SubjectPublicKeyInfo@@10@Z @ 176 NONAME ; class CCMSX509Certificate * CCMSX509Certificate::NewL(class TDesC8 const &, class CCMSX509AlgorithmIdentifier const &, class CX500DistinguishedName const &, class CCMSX509Validity const &, class CX500DistinguishedName const &, class CCMSX509SubjectPublicKeyInfo const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSX509Certificate@@SAPAV1@XZ @ 177 NONAME ; class CCMSX509Certificate * CCMSX509Certificate::NewL(void)
+	?NewL@CCMSX509GeneralName@@SAPAV1@IABVTDesC8@@@Z @ 178 NONAME ; class CCMSX509GeneralName * CCMSX509GeneralName::NewL(unsigned int, class TDesC8 const &)
+	?NewL@CCMSX509GeneralName@@SAPAV1@XZ @ 179 NONAME ; class CCMSX509GeneralName * CCMSX509GeneralName::NewL(void)
+	?NewL@CCMSX509GeneralNames@@SAPAV1@ABV1@@Z @ 180 NONAME ; class CCMSX509GeneralNames * CCMSX509GeneralNames::NewL(class CCMSX509GeneralNames const &)
+	?NewL@CCMSX509GeneralNames@@SAPAV1@ABV?$CArrayPtr@VCCMSX509GeneralName@@@@@Z @ 181 NONAME ; class CCMSX509GeneralNames * CCMSX509GeneralNames::NewL(class CArrayPtr<class CCMSX509GeneralName> const &)
+	?NewL@CCMSX509GeneralNames@@SAPAV1@XZ @ 182 NONAME ; class CCMSX509GeneralNames * CCMSX509GeneralNames::NewL(void)
+	?NewL@CCMSX509IssuerSerial@@SAPAV1@ABVCCMSX509GeneralNames@@H@Z @ 183 NONAME ; class CCMSX509IssuerSerial * CCMSX509IssuerSerial::NewL(class CCMSX509GeneralNames const &, int)
+	?NewL@CCMSX509IssuerSerial@@SAPAV1@ABVCCMSX509GeneralNames@@HABVTDesC8@@@Z @ 184 NONAME ; class CCMSX509IssuerSerial * CCMSX509IssuerSerial::NewL(class CCMSX509GeneralNames const &, int, class TDesC8 const &)
+	?NewL@CCMSX509IssuerSerial@@SAPAV1@XZ @ 185 NONAME ; class CCMSX509IssuerSerial * CCMSX509IssuerSerial::NewL(void)
+	?NewL@CCMSX509SubjectPublicKeyInfo@@SAPAV1@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 186 NONAME ; class CCMSX509SubjectPublicKeyInfo * CCMSX509SubjectPublicKeyInfo::NewL(class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewL@CCMSX509SubjectPublicKeyInfo@@SAPAV1@ABVCSubjectPublicKeyInfo@@@Z @ 187 NONAME ; class CCMSX509SubjectPublicKeyInfo * CCMSX509SubjectPublicKeyInfo::NewL(class CSubjectPublicKeyInfo const &)
+	?NewL@CCMSX509SubjectPublicKeyInfo@@SAPAV1@XZ @ 188 NONAME ; class CCMSX509SubjectPublicKeyInfo * CCMSX509SubjectPublicKeyInfo::NewL(void)
+	?NewL@CCMSX509Validity@@SAPAV1@ABVCValidityPeriod@@@Z @ 189 NONAME ; class CCMSX509Validity * CCMSX509Validity::NewL(class CValidityPeriod const &)
+	?NewL@CCMSX509Validity@@SAPAV1@ABVTTime@@0@Z @ 190 NONAME ; class CCMSX509Validity * CCMSX509Validity::NewL(class TTime const &, class TTime const &)
+	?NewL@CCMSX509Validity@@SAPAV1@XZ @ 191 NONAME ; class CCMSX509Validity * CCMSX509Validity::NewL(void)
+	?NewLC@CCMSAttribute@@SAPAV1@ABVTDesC16@@ABVCDesC8Array@@@Z @ 192 NONAME ; class CCMSAttribute * CCMSAttribute::NewLC(class TDesC16 const &, class CDesC8Array const &)
+	?NewLC@CCMSAttribute@@SAPAV1@ABVTDesC16@@ABVTDesC8@@@Z @ 193 NONAME ; class CCMSAttribute * CCMSAttribute::NewLC(class TDesC16 const &, class TDesC8 const &)
+	?NewLC@CCMSAttribute@@SAPAV1@XZ @ 194 NONAME ; class CCMSAttribute * CCMSAttribute::NewLC(void)
+	?NewLC@CCMSAuthenticatedData@@SAPAV1@PAV?$CArrayPtr@VCCMSRecipientInfo@@@@PAVCCMSX509AlgorithmIdentifier@@PAVCCMSEncapsulatedContentInfo@@ABVTDesC8@@@Z @ 195 NONAME ; class CCMSAuthenticatedData * CCMSAuthenticatedData::NewLC(class CArrayPtr<class CCMSRecipientInfo> *, class CCMSX509AlgorithmIdentifier *, class CCMSEncapsulatedContentInfo *, class TDesC8 const &)
+	?NewLC@CCMSAuthenticatedData@@SAPAV1@XZ @ 196 NONAME ; class CCMSAuthenticatedData * CCMSAuthenticatedData::NewLC(void)
+	?NewLC@CCMSCertificateChoices@@SAPAV1@ABVCCMSX509AttributeCertificate@@@Z @ 197 NONAME ; class CCMSCertificateChoices * CCMSCertificateChoices::NewLC(class CCMSX509AttributeCertificate const &)
+	?NewLC@CCMSCertificateChoices@@SAPAV1@ABVCCMSX509Certificate@@@Z @ 198 NONAME ; class CCMSCertificateChoices * CCMSCertificateChoices::NewLC(class CCMSX509Certificate const &)
+	?NewLC@CCMSCertificateChoices@@SAPAV1@XZ @ 199 NONAME ; class CCMSCertificateChoices * CCMSCertificateChoices::NewLC(void)
+	?NewLC@CCMSContentInfo@@SAPAV1@ABVTDesC16@@ABVTDesC8@@@Z @ 200 NONAME ; class CCMSContentInfo * CCMSContentInfo::NewLC(class TDesC16 const &, class TDesC8 const &)
+	?NewLC@CCMSContentInfo@@SAPAV1@XZ @ 201 NONAME ; class CCMSContentInfo * CCMSContentInfo::NewLC(void)
+	?NewLC@CCMSEncapsulatedContentInfo@@SAPAV1@ABVTDesC16@@PBVTDesC8@@@Z @ 202 NONAME ; class CCMSEncapsulatedContentInfo * CCMSEncapsulatedContentInfo::NewLC(class TDesC16 const &, class TDesC8 const *)
+	?NewLC@CCMSEncapsulatedContentInfo@@SAPAV1@XZ @ 203 NONAME ; class CCMSEncapsulatedContentInfo * CCMSEncapsulatedContentInfo::NewLC(void)
+	?NewLC@CCMSKEKRecipientInfo@@SAPAV1@XZ @ 204 NONAME ; class CCMSKEKRecipientInfo * CCMSKEKRecipientInfo::NewLC(void)
+	?NewLC@CCMSKeyAgreeRecipientInfo@@SAPAV1@XZ @ 205 NONAME ; class CCMSKeyAgreeRecipientInfo * CCMSKeyAgreeRecipientInfo::NewLC(void)
+	?NewLC@CCMSKeyTransRecipientInfo@@SAPAV1@ABVTDesC8@@ABVCCMSX509AlgorithmIdentifier@@0@Z @ 206 NONAME ; class CCMSKeyTransRecipientInfo * CCMSKeyTransRecipientInfo::NewLC(class TDesC8 const &, class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewLC@CCMSKeyTransRecipientInfo@@SAPAV1@XZ @ 207 NONAME ; class CCMSKeyTransRecipientInfo * CCMSKeyTransRecipientInfo::NewLC(void)
+	?NewLC@CCMSOriginatorPublicKey@@SAPAV1@ABV1@@Z @ 208 NONAME ; class CCMSOriginatorPublicKey * CCMSOriginatorPublicKey::NewLC(class CCMSOriginatorPublicKey const &)
+	?NewLC@CCMSOriginatorPublicKey@@SAPAV1@ABVCCMSX509AlgorithmIdentifier@@ABVTDesC8@@@Z @ 209 NONAME ; class CCMSOriginatorPublicKey * CCMSOriginatorPublicKey::NewLC(class CCMSX509AlgorithmIdentifier const &, class TDesC8 const &)
+	?NewLC@CCMSSignedData@@SAPAV1@ABV?$CArrayPtr@VCCMSX509AlgorithmIdentifier@@@@ABVCCMSEncapsulatedContentInfo@@ABV?$CArrayPtr@VCCMSSignerInfo@@@@@Z @ 210 NONAME ; class CCMSSignedData * CCMSSignedData::NewLC(class CArrayPtr<class CCMSX509AlgorithmIdentifier> const &, class CCMSEncapsulatedContentInfo const &, class CArrayPtr<class CCMSSignerInfo> const &)
+	?NewLC@CCMSSignedData@@SAPAV1@ABV?$CArrayPtr@VCCMSX509AlgorithmIdentifier@@@@ABVCCMSEncapsulatedContentInfo@@ABV?$CArrayPtr@VCCMSSignerInfo@@@@PBV?$CArrayPtr@VCCMSCertificateChoices@@@@PBV?$CArrayPtr@VCCMSX509CertificateList@@@@@Z @ 211 NONAME ; class CCMSSignedData * CCMSSignedData::NewLC(class CArrayPtr<class CCMSX509AlgorithmIdentifier> const &, class CCMSEncapsulatedContentInfo const &, class CArrayPtr<class CCMSSignerInfo> const &, class CArrayPtr<class CCMSCertificateChoices> const *, class CArrayPtr<class CCMSX509CertificateList> const *)
+	?NewLC@CCMSSignedData@@SAPAV1@XZ @ 212 NONAME ; class CCMSSignedData * CCMSSignedData::NewLC(void)
+	?NewLC@CCMSX509CertificateList@@SAPAV1@AAVCCMSX509CertificateListParameters@@@Z @ 213 NONAME ; class CCMSX509CertificateList * CCMSX509CertificateList::NewLC(class CCMSX509CertificateListParameters &)
+	?NewLC@CCMSX509CertificateList@@SAPAV1@ABVCX509Certificate@@ABV?$CArrayPtrFlat@VCX509Certificate@@@@@Z @ 214 NONAME ; class CCMSX509CertificateList * CCMSX509CertificateList::NewLC(class CX509Certificate const &, class CArrayPtrFlat<class CX509Certificate> const &)
+	?NewLC@CCMSX509CertificateList@@SAPAV1@XZ @ 215 NONAME ; class CCMSX509CertificateList * CCMSX509CertificateList::NewLC(void)
+	?NotAfter@CCMSX509Validity@@QBEABVTTime@@XZ @ 216 NONAME ; class TTime const & CCMSX509Validity::NotAfter(void) const
+	?NotAfterTime@CCMSX509AttributeCertificateInfo@@QBEABVTTime@@XZ @ 217 NONAME ; class TTime const & CCMSX509AttributeCertificateInfo::NotAfterTime(void) const
+	?NotBefore@CCMSX509Validity@@QBEABVTTime@@XZ @ 218 NONAME ; class TTime const & CCMSX509Validity::NotBefore(void) const
+	?NotBeforeTime@CCMSX509AttributeCertificateInfo@@QBEABVTTime@@XZ @ 219 NONAME ; class TTime const & CCMSX509AttributeCertificateInfo::NotBeforeTime(void) const
+	?Originator@CCMSKeyAgreeRecipientInfo@@QBEABVCCMSOriginatorIdentifierOrKey@@XZ @ 220 NONAME ; class CCMSOriginatorIdentifierOrKey const & CCMSKeyAgreeRecipientInfo::Originator(void) const
+	?OriginatorInfo@CCMSAuthenticatedData@@QBEPBVCCMSOriginatorInfo@@XZ @ 221 NONAME ; class CCMSOriginatorInfo const * CCMSAuthenticatedData::OriginatorInfo(void) const
+	?OriginatorKeyL@CCMSOriginatorIdentifierOrKey@@QBEABVCCMSOriginatorPublicKey@@XZ @ 222 NONAME ; class CCMSOriginatorPublicKey const & CCMSOriginatorIdentifierOrKey::OriginatorKeyL(void) const
+	?Parameters@CCMSX509CertificateList@@QBEABVCCMSX509CertificateListParameters@@XZ @ 223 NONAME ; class CCMSX509CertificateListParameters const & CCMSX509CertificateList::Parameters(void) const
+	?PublicKey@CCMSOriginatorPublicKey@@QBEABVTDesC8@@XZ @ 224 NONAME ; class TDesC8 const & CCMSOriginatorPublicKey::PublicKey(void) const
+	?RKeyId@CCMSRecipientEncryptedKey@@QBEPBVCCMSKeyIdentifier@@XZ @ 225 NONAME ; class CCMSKeyIdentifier const * CCMSRecipientEncryptedKey::RKeyId(void) const
+	?RecipientEncryptedKeys@CCMSKeyAgreeRecipientInfo@@QBEABV?$CArrayPtr@VCCMSRecipientEncryptedKey@@@@XZ @ 226 NONAME ; class CArrayPtr<class CCMSRecipientEncryptedKey> const & CCMSKeyAgreeRecipientInfo::RecipientEncryptedKeys(void) const
+	?RecipientInfos@CCMSAuthenticatedData@@QBEABV?$CArrayPtr@VCCMSRecipientInfo@@@@XZ @ 227 NONAME ; class CArrayPtr<class CCMSRecipientInfo> const & CCMSAuthenticatedData::RecipientInfos(void) const
+	?RevokedCertificates@CCMSSignedData@@QBEPBV?$CArrayPtr@VCCMSX509CertificateList@@@@XZ @ 228 NONAME ; class CArrayPtr<class CCMSX509CertificateList> const * CCMSSignedData::RevokedCertificates(void) const
+	?Serial@CCMSX509IssuerSerial@@QBEHXZ @ 229 NONAME ; int CCMSX509IssuerSerial::Serial(void) const
+	?SerialNumber@CCMSIssuerAndSerialNumber@@QBEABVTDesC8@@XZ @ 230 NONAME ; class TDesC8 const & CCMSIssuerAndSerialNumber::SerialNumber(void) const
+	?SerialNumber@CCMSX509AttributeCertificateInfo@@QBEHXZ @ 231 NONAME ; int CCMSX509AttributeCertificateInfo::SerialNumber(void) const
+	?SerialNumber@CCMSX509Certificate@@QBEABVTDesC8@@XZ @ 232 NONAME ; class TDesC8 const & CCMSX509Certificate::SerialNumber(void) const
+	?SetAlgorithmIdentifierL@CCMSX509AlgorithmIdentifier@@QAEXABVCAlgorithmIdentifier@@@Z @ 233 NONAME ; void CCMSX509AlgorithmIdentifier::SetAlgorithmIdentifierL(class CAlgorithmIdentifier const &)
+	?SetAlgorithmIdentifierL@CCMSX509Signed@@QAEXABVCCMSX509AlgorithmIdentifier@@@Z @ 234 NONAME ; void CCMSX509Signed::SetAlgorithmIdentifierL(class CCMSX509AlgorithmIdentifier const &)
+	?SetAlgorithmL@CCMSOriginatorPublicKey@@QAEXABVCCMSX509AlgorithmIdentifier@@@Z @ 235 NONAME ; void CCMSOriginatorPublicKey::SetAlgorithmL(class CCMSX509AlgorithmIdentifier const &)
+	?SetAlgorithmL@CCMSX509SubjectPublicKeyInfo@@QAEXABVCCMSX509AlgorithmIdentifier@@@Z @ 236 NONAME ; void CCMSX509SubjectPublicKeyInfo::SetAlgorithmL(class CCMSX509AlgorithmIdentifier const &)
+	?SetAttrCertL@CCMSCertificateChoices@@QAEXABVCCMSX509AttributeCertificate@@@Z @ 237 NONAME ; void CCMSCertificateChoices::SetAttrCertL(class CCMSX509AttributeCertificate const &)
+	?SetAttributeTypeL@CCMSAttribute@@QAEXABVTDesC16@@@Z @ 238 NONAME ; void CCMSAttribute::SetAttributeTypeL(class TDesC16 const &)
+	?SetAttributeValuesL@CCMSAttribute@@QAEXABVCDesC8Array@@@Z @ 239 NONAME ; void CCMSAttribute::SetAttributeValuesL(class CDesC8Array const &)
+	?SetAttributesL@CCMSX509AttributeCertificateInfo@@QAEXABV?$CArrayPtr@VCCMSAttribute@@@@@Z @ 240 NONAME ; void CCMSX509AttributeCertificateInfo::SetAttributesL(class CArrayPtr<class CCMSAttribute> const &)
+	?SetAuthenticatedAttributesL@CCMSAuthenticatedData@@QAEXPAV?$CArrayPtr@VCCMSAttribute@@@@@Z @ 241 NONAME ; void CCMSAuthenticatedData::SetAuthenticatedAttributesL(class CArrayPtr<class CCMSAttribute> *)
+	?SetBaseCertificateIDL@CCMSX509AttributeCertificateInfo@@QAEXABVCCMSX509IssuerSerial@@@Z @ 242 NONAME ; void CCMSX509AttributeCertificateInfo::SetBaseCertificateIDL(class CCMSX509IssuerSerial const &)
+	?SetCertificateL@CCMSCertificateChoices@@QAEXABVCCMSX509Certificate@@@Z @ 243 NONAME ; void CCMSCertificateChoices::SetCertificateL(class CCMSX509Certificate const &)
+	?SetCertificateL@CCMSSignerInfo@@QAEXABVCCMSX509Certificate@@@Z @ 244 NONAME ; void CCMSSignerInfo::SetCertificateL(class CCMSX509Certificate const &)
+	?SetCertificateUrlL@CCMSSignerInfo@@QAEXABVTDesC8@@0@Z @ 245 NONAME ; void CCMSSignerInfo::SetCertificateUrlL(class TDesC8 const &, class TDesC8 const &)
+	?SetCertificatesL@CCMSSignedData@@QAEXPBV?$CArrayPtr@VCCMSCertificateChoices@@@@@Z @ 246 NONAME ; void CCMSSignedData::SetCertificatesL(class CArrayPtr<class CCMSCertificateChoices> const *)
+	?SetCerts@CCMSOriginatorInfo@@QAEXPAV?$CArrayPtr@VCCMSCertificateChoices@@@@@Z @ 247 NONAME ; void CCMSOriginatorInfo::SetCerts(class CArrayPtr<class CCMSCertificateChoices> *)
+	?SetContentL@CCMSContentInfo@@QAEXABVTDesC8@@@Z @ 248 NONAME ; void CCMSContentInfo::SetContentL(class TDesC8 const &)
+	?SetContentL@CCMSEncapsulatedContentInfo@@QAEXPBVTDesC8@@@Z @ 249 NONAME ; void CCMSEncapsulatedContentInfo::SetContentL(class TDesC8 const *)
+	?SetContentTypeL@CCMSContentInfo@@QAEXABVTDesC16@@@Z @ 250 NONAME ; void CCMSContentInfo::SetContentTypeL(class TDesC16 const &)
+	?SetCrls@CCMSOriginatorInfo@@QAEXPAV?$CArrayPtr@VCCMSX509CertificateList@@@@@Z @ 251 NONAME ; void CCMSOriginatorInfo::SetCrls(class CArrayPtr<class CCMSX509CertificateList> *)
+	?SetDataL@CCMSX509GeneralName@@QAEXABVTDesC8@@@Z @ 252 NONAME ; void CCMSX509GeneralName::SetDataL(class TDesC8 const &)
+	?SetDateL@CCMSKeyIdentifier@@QAEXABVTTime@@@Z @ 253 NONAME ; void CCMSKeyIdentifier::SetDateL(class TTime const &)
+	?SetDigestAlgorithmIdentifier@CCMSSignerInfo@@QAEXAAVCCMSX509AlgorithmIdentifier@@@Z @ 254 NONAME ; void CCMSSignerInfo::SetDigestAlgorithmIdentifier(class CCMSX509AlgorithmIdentifier &)
+	?SetDigestAlgorithmIdentifiersL@CCMSSignedData@@QAEXABV?$CArrayPtr@VCCMSX509AlgorithmIdentifier@@@@@Z @ 255 NONAME ; void CCMSSignedData::SetDigestAlgorithmIdentifiersL(class CArrayPtr<class CCMSX509AlgorithmIdentifier> const &)
+	?SetDigestAlgorithmL@CCMSAuthenticatedData@@QAEXPAVCCMSX509AlgorithmIdentifier@@@Z @ 256 NONAME ; void CCMSAuthenticatedData::SetDigestAlgorithmL(class CCMSX509AlgorithmIdentifier *)
+	?SetDigestAlgorithmL@CCMSX509AlgorithmIdentifier@@QAEXPBVCAlgorithmIdentifier@@@Z @ 257 NONAME ; void CCMSX509AlgorithmIdentifier::SetDigestAlgorithmL(class CAlgorithmIdentifier const *)
+	?SetEncapContentInfoL@CCMSAuthenticatedData@@QAEXPAVCCMSEncapsulatedContentInfo@@@Z @ 258 NONAME ; void CCMSAuthenticatedData::SetEncapContentInfoL(class CCMSEncapsulatedContentInfo *)
+	?SetEncapsulatedContentInfoL@CCMSSignedData@@QAEXABVCCMSEncapsulatedContentInfo@@@Z @ 259 NONAME ; void CCMSSignedData::SetEncapsulatedContentInfoL(class CCMSEncapsulatedContentInfo const &)
+	?SetEncryptedKeyL@CCMSKEKRecipientInfo@@QAEXABVTDesC8@@@Z @ 260 NONAME ; void CCMSKEKRecipientInfo::SetEncryptedKeyL(class TDesC8 const &)
+	?SetEncryptedKeyL@CCMSKeyTransRecipientInfo@@QAEXABVTDesC8@@@Z @ 261 NONAME ; void CCMSKeyTransRecipientInfo::SetEncryptedKeyL(class TDesC8 const &)
+	?SetEncryptedKeyL@CCMSRecipientEncryptedKey@@QAEXABVTDesC8@@@Z @ 262 NONAME ; void CCMSRecipientEncryptedKey::SetEncryptedKeyL(class TDesC8 const &)
+	?SetEncryptedL@CCMSX509Signed@@QAEXABVTDesC8@@@Z @ 263 NONAME ; void CCMSX509Signed::SetEncryptedL(class TDesC8 const &)
+	?SetGeneralNamesL@CCMSX509GeneralNames@@QAEXABV?$CArrayPtr@VCCMSX509GeneralName@@@@@Z @ 264 NONAME ; void CCMSX509GeneralNames::SetGeneralNamesL(class CArrayPtr<class CCMSX509GeneralName> const &)
+	?SetInfoL@CCMSX509AttributeCertificate@@QAEXABVCCMSX509AttributeCertificateInfo@@@Z @ 265 NONAME ; void CCMSX509AttributeCertificate::SetInfoL(class CCMSX509AttributeCertificateInfo const &)
+	?SetIssuerAndSerialNumberL@CCMSKeyTransRecipientInfo@@QAEXABVCCMSIssuerAndSerialNumber@@@Z @ 266 NONAME ; void CCMSKeyTransRecipientInfo::SetIssuerAndSerialNumberL(class CCMSIssuerAndSerialNumber const &)
+	?SetIssuerAndSerialNumberL@CCMSOriginatorIdentifierOrKey@@QAEXABVCCMSIssuerAndSerialNumber@@@Z @ 267 NONAME ; void CCMSOriginatorIdentifierOrKey::SetIssuerAndSerialNumberL(class CCMSIssuerAndSerialNumber const &)
+	?SetIssuerAndSerialNumberL@CCMSRecipientEncryptedKey@@QAEXABVCCMSIssuerAndSerialNumber@@@Z @ 268 NONAME ; void CCMSRecipientEncryptedKey::SetIssuerAndSerialNumberL(class CCMSIssuerAndSerialNumber const &)
+	?SetIssuerL@CCMSX509AttributeCertificateInfo@@QAEXABVCCMSX509GeneralNames@@@Z @ 269 NONAME ; void CCMSX509AttributeCertificateInfo::SetIssuerL(class CCMSX509GeneralNames const &)
+	?SetIssuerL@CCMSX509Certificate@@QAEXABVCX500DistinguishedName@@@Z @ 270 NONAME ; void CCMSX509Certificate::SetIssuerL(class CX500DistinguishedName const &)
+	?SetIssuerL@CCMSX509IssuerSerial@@QAEXABVCCMSX509GeneralNames@@@Z @ 271 NONAME ; void CCMSX509IssuerSerial::SetIssuerL(class CCMSX509GeneralNames const &)
+	?SetIssuerNameL@CCMSIssuerAndSerialNumber@@QAEXABVCX500DistinguishedName@@@Z @ 272 NONAME ; void CCMSIssuerAndSerialNumber::SetIssuerNameL(class CX500DistinguishedName const &)
+	?SetIssuerUIDL@CCMSX509IssuerSerial@@QAEXABVTDesC8@@@Z @ 273 NONAME ; void CCMSX509IssuerSerial::SetIssuerUIDL(class TDesC8 const &)
+	?SetIssuerUniqueIDL@CCMSX509AttributeCertificateInfo@@QAEXABVTDesC8@@@Z @ 274 NONAME ; void CCMSX509AttributeCertificateInfo::SetIssuerUniqueIDL(class TDesC8 const &)
+	?SetIssuerUniqueIdentifierL@CCMSX509Certificate@@QAEXABVTDesC8@@@Z @ 275 NONAME ; void CCMSX509Certificate::SetIssuerUniqueIdentifierL(class TDesC8 const &)
+	?SetKekidL@CCMSKEKRecipientInfo@@QAEXABVCCMSKeyIdentifier@@@Z @ 276 NONAME ; void CCMSKEKRecipientInfo::SetKekidL(class CCMSKeyIdentifier const &)
+	?SetKeyEncryptionAlgorithmL@CCMSRecipientInfo@@QAEXABVCCMSX509AlgorithmIdentifier@@@Z @ 277 NONAME ; void CCMSRecipientInfo::SetKeyEncryptionAlgorithmL(class CCMSX509AlgorithmIdentifier const &)
+	?SetKeyIdentifierL@CCMSKeyIdentifier@@QAEXABVTDesC8@@@Z @ 278 NONAME ; void CCMSKeyIdentifier::SetKeyIdentifierL(class TDesC8 const &)
+	?SetMacAlgorithmL@CCMSAuthenticatedData@@QAEXPAVCCMSX509AlgorithmIdentifier@@@Z @ 279 NONAME ; void CCMSAuthenticatedData::SetMacAlgorithmL(class CCMSX509AlgorithmIdentifier *)
+	?SetMacL@CCMSAuthenticatedData@@QAEXABVTDesC8@@@Z @ 280 NONAME ; void CCMSAuthenticatedData::SetMacL(class TDesC8 const &)
+	?SetNotAfter@CCMSX509Validity@@QAEXABVTTime@@@Z @ 281 NONAME ; void CCMSX509Validity::SetNotAfter(class TTime const &)
+	?SetNotAfterTimeL@CCMSX509AttributeCertificateInfo@@QAEXABVTTime@@@Z @ 282 NONAME ; void CCMSX509AttributeCertificateInfo::SetNotAfterTimeL(class TTime const &)
+	?SetNotBefore@CCMSX509Validity@@QAEXABVTTime@@@Z @ 283 NONAME ; void CCMSX509Validity::SetNotBefore(class TTime const &)
+	?SetNotBeforeTimeL@CCMSX509AttributeCertificateInfo@@QAEXABVTTime@@@Z @ 284 NONAME ; void CCMSX509AttributeCertificateInfo::SetNotBeforeTimeL(class TTime const &)
+	?SetOriginatorInfoL@CCMSAuthenticatedData@@QAEXPAVCCMSOriginatorInfo@@@Z @ 285 NONAME ; void CCMSAuthenticatedData::SetOriginatorInfoL(class CCMSOriginatorInfo *)
+	?SetOriginatorKeyL@CCMSOriginatorIdentifierOrKey@@QAEXABVCCMSOriginatorPublicKey@@@Z @ 286 NONAME ; void CCMSOriginatorIdentifierOrKey::SetOriginatorKeyL(class CCMSOriginatorPublicKey const &)
+	?SetOriginatorL@CCMSKeyAgreeRecipientInfo@@QAEXABVCCMSOriginatorIdentifierOrKey@@@Z @ 287 NONAME ; void CCMSKeyAgreeRecipientInfo::SetOriginatorL(class CCMSOriginatorIdentifierOrKey const &)
+	?SetParametersL@CCMSX509CertificateList@@QAEXAAVCCMSX509CertificateListParameters@@@Z @ 288 NONAME ; void CCMSX509CertificateList::SetParametersL(class CCMSX509CertificateListParameters &)
+	?SetPublicKeyL@CCMSOriginatorPublicKey@@QAEXABVTDesC8@@@Z @ 289 NONAME ; void CCMSOriginatorPublicKey::SetPublicKeyL(class TDesC8 const &)
+	?SetRKeyIdL@CCMSRecipientEncryptedKey@@QAEXABVCCMSKeyIdentifier@@@Z @ 290 NONAME ; void CCMSRecipientEncryptedKey::SetRKeyIdL(class CCMSKeyIdentifier const &)
+	?SetRecipientEncryptedKeysL@CCMSKeyAgreeRecipientInfo@@QAEXABV?$CArrayPtr@VCCMSRecipientEncryptedKey@@@@@Z @ 291 NONAME ; void CCMSKeyAgreeRecipientInfo::SetRecipientEncryptedKeysL(class CArrayPtr<class CCMSRecipientEncryptedKey> const &)
+	?SetRecipientInfosL@CCMSAuthenticatedData@@QAEXPAV?$CArrayPtr@VCCMSRecipientInfo@@@@@Z @ 292 NONAME ; void CCMSAuthenticatedData::SetRecipientInfosL(class CArrayPtr<class CCMSRecipientInfo> *)
+	?SetRevokedCertificatesL@CCMSSignedData@@QAEXPBV?$CArrayPtr@VCCMSX509CertificateList@@@@@Z @ 293 NONAME ; void CCMSSignedData::SetRevokedCertificatesL(class CArrayPtr<class CCMSX509CertificateList> const *)
+	?SetSerial@CCMSX509IssuerSerial@@QAEXH@Z @ 294 NONAME ; void CCMSX509IssuerSerial::SetSerial(int)
+	?SetSerialNumber@CCMSX509AttributeCertificateInfo@@QAEXH@Z @ 295 NONAME ; void CCMSX509AttributeCertificateInfo::SetSerialNumber(int)
+	?SetSerialNumberL@CCMSIssuerAndSerialNumber@@QAEXABVTDesC8@@@Z @ 296 NONAME ; void CCMSIssuerAndSerialNumber::SetSerialNumberL(class TDesC8 const &)
+	?SetSerialNumberL@CCMSX509Certificate@@QAEXABVTDesC8@@@Z @ 297 NONAME ; void CCMSX509Certificate::SetSerialNumberL(class TDesC8 const &)
+	?SetSignatureAlgorithmIdentifier@CCMSSignerInfo@@QAEXAAVCCMSX509AlgorithmIdentifier@@@Z @ 298 NONAME ; void CCMSSignerInfo::SetSignatureAlgorithmIdentifier(class CCMSX509AlgorithmIdentifier &)
+	?SetSignatureL@CCMSX509AttributeCertificateInfo@@QAEXABVCCMSX509AlgorithmIdentifier@@@Z @ 299 NONAME ; void CCMSX509AttributeCertificateInfo::SetSignatureL(class CCMSX509AlgorithmIdentifier const &)
+	?SetSignatureL@CCMSX509Certificate@@QAEXABVCCMSX509AlgorithmIdentifier@@@Z @ 300 NONAME ; void CCMSX509Certificate::SetSignatureL(class CCMSX509AlgorithmIdentifier const &)
+	?SetSignatureValueL@CCMSSignerInfo@@QAEXABVTDesC8@@@Z @ 301 NONAME ; void CCMSSignerInfo::SetSignatureValueL(class TDesC8 const &)
+	?SetSignedAttributesL@CCMSSignerInfo@@QAEXABVTDesC16@@ABVTDesC8@@ABVTTime@@PBV3@@Z @ 302 NONAME ; void CCMSSignerInfo::SetSignedAttributesL(class TDesC16 const &, class TDesC8 const &, class TTime const &, class TDesC8 const *)
+	?SetSignerInfosL@CCMSSignedData@@QAEXABV?$CArrayPtr@VCCMSSignerInfo@@@@@Z @ 303 NONAME ; void CCMSSignedData::SetSignerInfosL(class CArrayPtr<class CCMSSignerInfo> const &)
+	?SetSubjectKeyIdentifierL@CCMSKeyTransRecipientInfo@@QAEXABVTDesC8@@@Z @ 304 NONAME ; void CCMSKeyTransRecipientInfo::SetSubjectKeyIdentifierL(class TDesC8 const &)
+	?SetSubjectKeyIdentifierL@CCMSOriginatorIdentifierOrKey@@QAEXABVTDesC8@@@Z @ 305 NONAME ; void CCMSOriginatorIdentifierOrKey::SetSubjectKeyIdentifierL(class TDesC8 const &)
+	?SetSubjectL@CCMSX509Certificate@@QAEXABVCX500DistinguishedName@@@Z @ 306 NONAME ; void CCMSX509Certificate::SetSubjectL(class CX500DistinguishedName const &)
+	?SetSubjectNameL@CCMSX509AttributeCertificateInfo@@QAEXABVCCMSX509GeneralNames@@@Z @ 307 NONAME ; void CCMSX509AttributeCertificateInfo::SetSubjectNameL(class CCMSX509GeneralNames const &)
+	?SetSubjectPublicKeyInfoL@CCMSX509Certificate@@QAEXABVCCMSX509SubjectPublicKeyInfo@@@Z @ 308 NONAME ; void CCMSX509Certificate::SetSubjectPublicKeyInfoL(class CCMSX509SubjectPublicKeyInfo const &)
+	?SetSubjectPublicKeyL@CCMSX509SubjectPublicKeyInfo@@QAEXABVTDesC8@@@Z @ 309 NONAME ; void CCMSX509SubjectPublicKeyInfo::SetSubjectPublicKeyL(class TDesC8 const &)
+	?SetSubjectUniqueIdentifierL@CCMSX509Certificate@@QAEXABVTDesC8@@@Z @ 310 NONAME ; void CCMSX509Certificate::SetSubjectUniqueIdentifierL(class TDesC8 const &)
+	?SetTagL@CCMSX509GeneralName@@QAEXI@Z @ 311 NONAME ; void CCMSX509GeneralName::SetTagL(unsigned int)
+	?SetUnauthenticatedAttributesL@CCMSAuthenticatedData@@QAEXPAV?$CArrayPtr@VCCMSAttribute@@@@@Z @ 312 NONAME ; void CCMSAuthenticatedData::SetUnauthenticatedAttributesL(class CArrayPtr<class CCMSAttribute> *)
+	?SetUnsignedAttributesL@CCMSSignerInfo@@QAEXAAV?$CArrayPtrFlat@VCCMSAttribute@@@@@Z @ 313 NONAME ; void CCMSSignerInfo::SetUnsignedAttributesL(class CArrayPtrFlat<class CCMSAttribute> &)
+	?SetUserKeyingMaterialL@CCMSKeyAgreeRecipientInfo@@QAEXABVTDesC8@@@Z @ 314 NONAME ; void CCMSKeyAgreeRecipientInfo::SetUserKeyingMaterialL(class TDesC8 const &)
+	?SetValidityL@CCMSX509Certificate@@QAEXABVCCMSX509Validity@@@Z @ 315 NONAME ; void CCMSX509Certificate::SetValidityL(class CCMSX509Validity const &)
+	?SetVersion@CCMSAuthenticatedData@@QAEXH@Z @ 316 NONAME ; void CCMSAuthenticatedData::SetVersion(int)
+	?SetVersion@CCMSX509AttributeCertificateInfo@@QAEXH@Z @ 317 NONAME ; void CCMSX509AttributeCertificateInfo::SetVersion(int)
+	?SetVersion@CCMSX509Certificate@@QAEXH@Z @ 318 NONAME ; void CCMSX509Certificate::SetVersion(int)
+	?Signature@CCMSX509AttributeCertificateInfo@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 319 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSX509AttributeCertificateInfo::Signature(void) const
+	?Signature@CCMSX509Certificate@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 320 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSX509Certificate::Signature(void) const
+	?SignatureAlgorithmIdentifier@CCMSSignerInfo@@QBEABVCCMSX509AlgorithmIdentifier@@XZ @ 321 NONAME ; class CCMSX509AlgorithmIdentifier const & CCMSSignerInfo::SignatureAlgorithmIdentifier(void) const
+	?SignatureValue@CCMSSignerInfo@@QBEABVTDesC8@@XZ @ 322 NONAME ; class TDesC8 const & CCMSSignerInfo::SignatureValue(void) const
+	?SignedAttributes@CCMSSignerInfo@@QBEABV?$CArrayPtrFlat@VCCMSAttribute@@@@XZ @ 323 NONAME ; class CArrayPtrFlat<class CCMSAttribute> const & CCMSSignerInfo::SignedAttributes(void) const
+	?SignerInfos@CCMSSignedData@@QBEABV?$CArrayPtr@VCCMSSignerInfo@@@@XZ @ 324 NONAME ; class CArrayPtr<class CCMSSignerInfo> const & CCMSSignedData::SignerInfos(void) const
+	?Subject@CCMSX509Certificate@@QBEABVCX500DistinguishedName@@XZ @ 325 NONAME ; class CX500DistinguishedName const & CCMSX509Certificate::Subject(void) const
+	?SubjectKeyIdentifier@CCMSKeyTransRecipientInfo@@QBEPBVTDesC8@@XZ @ 326 NONAME ; class TDesC8 const * CCMSKeyTransRecipientInfo::SubjectKeyIdentifier(void) const
+	?SubjectKeyIdentifier@CCMSSignerInfo@@QBEPBVTDesC8@@XZ @ 327 NONAME ; class TDesC8 const * CCMSSignerInfo::SubjectKeyIdentifier(void) const
+	?SubjectKeyIdentifierL@CCMSOriginatorIdentifierOrKey@@QBEABVTDesC8@@XZ @ 328 NONAME ; class TDesC8 const & CCMSOriginatorIdentifierOrKey::SubjectKeyIdentifierL(void) const
+	?SubjectName@CCMSX509AttributeCertificateInfo@@QBEPBVCCMSX509GeneralNames@@XZ @ 329 NONAME ; class CCMSX509GeneralNames const * CCMSX509AttributeCertificateInfo::SubjectName(void) const
+	?SubjectPublicKey@CCMSX509SubjectPublicKeyInfo@@QBEABVTDesC8@@XZ @ 330 NONAME ; class TDesC8 const & CCMSX509SubjectPublicKeyInfo::SubjectPublicKey(void) const
+	?SubjectPublicKeyInfo@CCMSX509Certificate@@QBEABVCCMSX509SubjectPublicKeyInfo@@XZ @ 331 NONAME ; class CCMSX509SubjectPublicKeyInfo const & CCMSX509Certificate::SubjectPublicKeyInfo(void) const
+	?SubjectUniqueIdentifier@CCMSX509Certificate@@QBEPBVTDesC8@@XZ @ 332 NONAME ; class TDesC8 const * CCMSX509Certificate::SubjectUniqueIdentifier(void) const
+	?Tag@CCMSX509GeneralName@@QBEIXZ @ 333 NONAME ; unsigned int CCMSX509GeneralName::Tag(void) const
+	?ToBeSignedEncoderLC@CCMSX509Certificate@@QBEPAVCASN1EncBase@@XZ @ 334 NONAME ; class CASN1EncBase * CCMSX509Certificate::ToBeSignedEncoderLC(void) const
+	?Type@CCMSOriginatorIdentifierOrKey@@QBE?AW4TType@1@XZ @ 335 NONAME ; enum CCMSOriginatorIdentifierOrKey::TType CCMSOriginatorIdentifierOrKey::Type(void) const
+	?UnauthenticatedAttributes@CCMSAuthenticatedData@@QBEPBV?$CArrayPtr@VCCMSAttribute@@@@XZ @ 336 NONAME ; class CArrayPtr<class CCMSAttribute> const * CCMSAuthenticatedData::UnauthenticatedAttributes(void) const
+	?UnsignedAttributes@CCMSSignerInfo@@QBEABV?$CArrayPtrFlat@VCCMSAttribute@@@@XZ @ 337 NONAME ; class CArrayPtrFlat<class CCMSAttribute> const & CCMSSignerInfo::UnsignedAttributes(void) const
+	?UserKeyingMaterial@CCMSKeyAgreeRecipientInfo@@QBEPBVTDesC8@@XZ @ 338 NONAME ; class TDesC8 const * CCMSKeyAgreeRecipientInfo::UserKeyingMaterial(void) const
+	?Validity@CCMSX509Certificate@@QBEABVCCMSX509Validity@@XZ @ 339 NONAME ; class CCMSX509Validity const & CCMSX509Certificate::Validity(void) const
+	?Version@CCMSAuthenticatedData@@QBEHXZ @ 340 NONAME ; int CCMSAuthenticatedData::Version(void) const
+	?Version@CCMSRecipientInfo@@QBEHXZ @ 341 NONAME ; int CCMSRecipientInfo::Version(void) const
+	?Version@CCMSSignedData@@QBEHXZ @ 342 NONAME ; int CCMSSignedData::Version(void) const
+	?Version@CCMSX509AttributeCertificateInfo@@QBEHXZ @ 343 NONAME ; int CCMSX509AttributeCertificateInfo::Version(void) const
+	?Version@CCMSX509Certificate@@QBEHXZ @ 344 NONAME ; int CCMSX509Certificate::Version(void) const
+	?SignedAttributesEncodedL@CCMSSignerInfo@@QBEPAVHBufC8@@XZ @ 345 NONAME ; class HBufC8 * CCMSSignerInfo::SignedAttributesEncodedL(void) const
+

@@ -1,0 +1,36 @@
+/*
+* Copyright (c) 2007 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Image description file for GBA
+*
+*/
+
+
+#ifndef __GBA_IBY__
+#define __GBA_IBY__
+
+#include <Bldvariant.hrh>
+
+
+FILE=ABI_DIR\BUILD_DIR\gba2.dll	        SHARED_LIB_DIR\gba2.dll
+FILE=ABI_DIR\BUILD_DIR\gbautility.dll	  SHARED_LIB_DIR\gbautility.dll
+FILE=ABI_DIR\BUILD_DIR\gbaserver2.exe	PROGRAMS_DIR\gbaserver2.exe
+
+data=ZSYSTEM\install\gba_stub.sis    	System\Install\gba_stub.sis
+
+ECOM_PLUGIN( gbauicc2.dll, gbauicc2.rsc )
+
+ECOM_PLUGIN( httpfiltergba2.dll, httpfiltergba2.rsc )
+
+#endif //__GBA_IBY__
+//EOF

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="c204e64f29d830070a3c979b6e8cf367" dataversion="2.0">
+  <name>GBA API</name>
+  <description>Used to request bootstrap and key derivation</description>
+  <type>c++</type>
+  <collection>gba</collection>
+  <libs>
+    <lib name="gba.lib" />
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

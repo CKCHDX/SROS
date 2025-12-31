@@ -1,0 +1,37 @@
+/*
+* Copyright (c) 2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Uids of components related to Device Encryption
+*
+*/
+
+
+#ifndef DEVENCUIUIDS_HRH
+#define DEVENCUIUIDS_HRH
+
+#define KDevEncUiUid              0x2000259A
+#define KDevEncStarterUid         0x2000259B
+#define KDevEncOmaDmPluginUid     0x200025B5
+#define KDevEncOmaDmPluginImplUid 0x200025BB
+#define KDevEncRfsPluginUid       0x200025B6
+#define KDevEncRfsPluginImplUid   0x200025BC
+#define KDevEncCommonUtilsUid     0x200025B7
+#define KDevEncNotifPluginUid     0x20002672
+#define KDevEncNotifPluginImplUid 0x20002673
+#define KDevEncPasswdDlgUid       0x20002674
+
+#define KDevEncNokiaVID           0x70000001
+
+#endif  // DEVENCUIUIDS_HRH
+
+// End of file

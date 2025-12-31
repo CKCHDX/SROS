@@ -1,0 +1,37 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Build information file for RemoteLock
+*
+*/
+
+#ifdef RD_REMOTELOCK
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+//Configuration tool migration
+../conf/remotelock.confml            MW_LAYER_CONFML(remotelock.confml)
+../conf/remotelock_101FB654.crml 	   MW_LAYER_CRML(remotelock_101FB654.crml)
+
+../loc/remotelock.loc MW_LAYER_LOC_EXPORT_PATH(remotelock.loc)
+
+../Rom/RemoteLock.iby CORE_MW_LAYER_IBY_EXPORT_PATH( RemoteLock.iby )
+../Rom/RemoteLockResources.iby LANGUAGE_MW_LAYER_IBY_EXPORT_PATH( RemoteLockResources.iby )
+
+PRJ_MMPFILES
+../RemotelockSettings/Group/RemoteLockSettings.mmp
+../RemoteLockEngine/Group/RemoteLockEngine.mmp
+#endif //RD_RMOTELOCK

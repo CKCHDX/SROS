@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="b6229f7a9247a0702387b6d1a8b7a44c" dataversion="1.0">
+  <name>Provisioning API</name>
+  <description>Provides services for reading OMA provisioning files from SIM card</description>
+  <type>c++</type>
+  <subsystem>WIM</subsystem>
+  <libs>
+    <lib name="WimClient.lib" />
+  </libs>
+  <release category="domain"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>yes</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

@@ -1,0 +1,75 @@
+/*
+* Copyright (c) 2002 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  MMP file for the module
+*
+*/
+
+#include <platform_paths.hrh>
+
+TARGET          CMS.Dll
+TARGETTYPE      DLL
+UID             0x10011111 0x10003232
+
+
+CAPABILITY  CAP_GENERAL_DLL
+VENDORID    VID_DEFAULT
+
+
+SOURCEPATH      ../src
+
+SOURCE    CMS.cpp
+SOURCE    CCMSSequence.cpp
+SOURCE    CCMSIssuerAndSerialNumber.cpp
+SOURCE    CCMSAttribute.cpp
+SOURCE    CCMSX509AlgorithmIdentifier.cpp
+SOURCE    TCMSTimeUtil.cpp
+SOURCE    CCMSSignerInfo.cpp
+SOURCE    CCMSContentInfo.cpp
+SOURCE    CCMSEncapsulatedContentInfo.cpp
+SOURCE    CCMSX509CertificateList.cpp
+SOURCE    CCMSOriginatorPublicKey.cpp
+SOURCE    CCMSOriginatorIdentifierOrKey.cpp
+SOURCE    CCMSKeyIdentifier.cpp
+SOURCE    CCMSRecipientEncryptedKey.cpp
+SOURCE    CCMSRecipientInfo.cpp
+SOURCE    CCMSKeyTransRecipientInfo.cpp
+SOURCE    CCMSKeyAgreeRecipientInfo.cpp
+SOURCE    CCMSKEKRecipientInfo.cpp
+SOURCE    CCMSX509GeneralName.cpp
+SOURCE    CCMSX509GeneralNames.cpp
+SOURCE    CCMSSignedData.cpp
+SOURCE    CCMSX509IssuerSerial.cpp
+SOURCE    CCMSX509AttributeCertificateInfo.cpp
+SOURCE    CCMSX509AttributeCertificate.cpp
+SOURCE    CCMSX509SubjectPublicKeyInfo.cpp
+SOURCE    CCMSX509Signed.cpp
+SOURCE    CCMSX509Validity.cpp
+SOURCE    CCMSX509Certificate.cpp
+SOURCE    CCMSCertificateChoices.cpp
+SOURCE    CCMSOriginatorInfo.cpp
+SOURCE    CCMSAuthenticatedData.cpp
+
+USERINCLUDE     ../inc
+
+MW_LAYER_SYSTEMINCLUDE
+
+LIBRARY       euser.lib
+LIBRARY       asn1.lib
+LIBRARY       x509.lib
+LIBRARY       x500.lib
+LIBRARY       bafl.lib
+LIBRARY       crypto.lib
+
+SMPSAFE
+

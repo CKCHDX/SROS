@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="265c290ce3e6848b48351c0efeba17b9" dataversion="1.0">
+  <name>Remote Lock API</name>
+  <description>Used to change or retrieve remote lock settings.</description>
+  <type>c++</type>
+  <subsystem>remotelock</subsystem>
+  <libs>
+    <lib name="rlocksettings.lib" />
+  </libs>
+  <release category="domain"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>yes</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

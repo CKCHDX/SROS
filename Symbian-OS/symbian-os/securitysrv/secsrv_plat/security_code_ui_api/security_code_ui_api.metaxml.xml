@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="bf95bd58a1d8a46647f0d609534b0c35" dataversion="1.0">
+  <name>Security Code UI API</name>
+  <description>Implements dialogs for quering PIN and Security Code, and an interface for locking the device</description>
+  <type>c++</type>
+  <subsystem>securityuis</subsystem>
+  <libs>
+    <lib name="secui.lib" />
+  </libs>
+  <release category="domain"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>yes</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

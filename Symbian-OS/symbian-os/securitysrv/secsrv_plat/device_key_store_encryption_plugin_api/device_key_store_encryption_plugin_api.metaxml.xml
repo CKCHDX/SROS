@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<api id="34baa37775ddd1801e07cd9b9e63084f" dataversion="1.0">
+  <name>Device Key Store Encryption Plug-in API</name>
+  <description>Plug-in interface to encrypt and decrypt private key related to device certificates</description>
+  <type>c++</type>
+  <subsystem>pkiutilities</subsystem>
+  <libs>
+  </libs>
+  <release category="domain"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>yes</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

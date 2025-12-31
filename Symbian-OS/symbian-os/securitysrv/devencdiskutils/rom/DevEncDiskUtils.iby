@@ -1,0 +1,49 @@
+/*
+* Copyright (c) 2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Contains information about binary files and their locations.
+*
+*/
+
+
+#ifndef __DEVENC2_IBY__
+#define __DEVENC2_IBY__
+
+#ifdef FF_DEVICE_ENCRYPTION_FEATURE
+//---------------------------------------------------------------------------
+// Device Encryption Common Utilities.
+//---------------------------------------------------------------------------
+file=ABI_DIR\BUILD_DIR\devenccommonutils.dll SHARED_LIB_DIR\devenccommonutils.dll
+
+//---------------------------------------------------------------------------
+// Device Encryption RFS Plugin
+//---------------------------------------------------------------------------
+ECOM_PLUGIN(DevEncRfsPlugin.dll,DevEncRfsPlugin.rsc)
+
+//---------------------------------------------------------------------------
+// Device Encryption Recognizer.
+//---------------------------------------------------------------------------
+ECOM_PLUGIN(Pk5Recognizer.dll,2000FD89.rsc)
+data=\epoc32\data\z\Resource\Plugins\Pk5Recognizer.RSC 	"Resource\Plugins\Pk5Recognizer.RSC"
+
+//---------------------------------------------------------------------------
+// Device Encryption Starter
+//---------------------------------------------------------------------------
+S60_APP_EXE( DevEncStarter )
+//S60_APP_AIF_RSC( DevEncStarter )
+data=DATAZ_\resource\apps\DevEncStarter.rsc             resource\apps\DevEncStarter.rsc
+
+#endif // FF_DEVICE_ENCRYPTION_FEATURE
+#endif // __DEVENC2_IBY__
+
+// End of file

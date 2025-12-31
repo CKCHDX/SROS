@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="a2b08c0a87307800a720ace91ca47895" dataversion="1.0">
+  <name>WIM Cert API</name>
+  <description>Provides additional MIDP 2.0 security information for certificates</description>
+  <type>c++</type>
+  <subsystem>WIM</subsystem>
+  <libs>
+    <lib name="WimClient.lib" />
+  </libs>
+  <release category="domain"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>yes</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

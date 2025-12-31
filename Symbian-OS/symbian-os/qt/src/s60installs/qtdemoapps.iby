@@ -1,0 +1,261 @@
+#ifndef QTDEMOAPPS_IBY
+#define QTDEMOAPPS_IBY
+
+// A subset of Qt demo & example applications
+
+// Note that star requires OpenVG and the Qt OpenVG paint engine
+S60_APP_EXE(star)
+S60_APP_RESOURCE(star)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\star_reg.rsc   \private\10003a3f\import\apps\star_reg.rsc
+
+S60_APP_EXE(wiggly)
+S60_APP_RESOURCE(wiggly)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\wiggly_reg.rsc   \private\10003a3f\import\apps\wiggly_reg.rsc
+
+S60_APP_EXE(animatedtiles)
+S60_APP_RESOURCE(animatedtiles)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\animatedtiles_reg.rsc   \private\10003a3f\import\apps\animatedtiles_reg.rsc
+
+S60_APP_EXE(collidingmice)
+S60_APP_RESOURCE(collidingmice)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\collidingmice_reg.rsc   \private\10003a3f\import\apps\collidingmice_reg.rsc
+
+S60_APP_EXE(addressbook)
+S60_APP_RESOURCE(addressbook)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\addressbook_reg.rsc   \private\10003a3f\import\apps\addressbook_reg.rsc
+
+S60_APP_EXE(svgviewer)
+S60_APP_RESOURCE(svgviewer)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\svgviewer_reg.rsc   \private\10003a3f\import\apps\svgviewer_reg.rsc
+
+S60_APP_EXE(analogclock)
+S60_APP_RESOURCE(analogclock)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\analogclock_reg.rsc   \private\10003a3f\import\apps\analogclock_reg.rsc
+
+S60_APP_EXE(imagegestures)
+S60_APP_RESOURCE(imagegestures)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\imagegestures_reg.rsc   \private\10003a3f\import\apps\imagegestures_reg.rsc
+
+S60_APP_EXE(qftp)
+S60_APP_RESOURCE(qftp)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\qftp_reg.rsc   \private\10003a3f\import\apps\qftp_reg.rsc
+
+S60_APP_EXE(masterdetail)
+S60_APP_RESOURCE(masterdetail)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\masterdetail_reg.rsc   \private\10003a3f\import\apps\masterdetail_reg.rsc
+
+S60_APP_EXE(previewer)
+S60_APP_RESOURCE(previewer)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\previewer_reg.rsc   \private\10003a3f\import\apps\previewer_reg.rsc
+
+// 
+
+S60_APP_EXE(fluidlauncher)
+S60_APP_RESOURCE(fluidlauncher)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\fluidlauncher_reg.rsc   \private\10003a3f\import\apps\fluidlauncher_reg.rsc
+
+S60_APP_EXE(deform)
+S60_APP_RESOURCE(deform)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\deform_reg.rsc   \private\10003a3f\import\apps\deform_reg.rsc
+
+S60_APP_EXE(standarddialogs)
+S60_APP_RESOURCE(standarddialogs)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\standarddialogs_reg.rsc   \private\10003a3f\import\apps\standarddialogs_reg.rsc
+
+S60_APP_EXE(pathstroke)
+S60_APP_RESOURCE(pathstroke)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\pathstroke_reg.rsc   \private\10003a3f\import\apps\pathstroke_reg.rsc
+
+S60_APP_EXE(gradients)
+S60_APP_RESOURCE(gradients)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\gradients_reg.rsc   \private\10003a3f\import\apps\gradients_reg.rsc
+
+S60_APP_EXE(moveblocks)
+S60_APP_RESOURCE(moveblocks)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\moveblocks_reg.rsc   \private\10003a3f\import\apps\moveblocks_reg.rsc
+
+S60_APP_EXE(stickman)
+S60_APP_RESOURCE(stickman)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\stickman_reg.rsc   \private\10003a3f\import\apps\stickman_reg.rsc
+
+S60_APP_EXE(fridgemagnets)
+S60_APP_RESOURCE(fridgemagnets)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\fridgemagnets_reg.rsc   \private\10003a3f\import\apps\fridgemagnets_reg.rsc
+
+S60_APP_EXE(blurpicker)
+S60_APP_RESOURCE(blurpicker)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\blurpicker_reg.rsc   \private\10003a3f\import\apps\blurpicker_reg.rsc
+
+S60_APP_EXE(knobs)
+S60_APP_RESOURCE(knobs)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\knobs_reg.rsc   \private\10003a3f\import\apps\knobs_reg.rsc
+
+S60_APP_EXE(states)
+S60_APP_RESOURCE(states)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\states_reg.rsc   \private\10003a3f\import\apps\states_reg.rsc
+
+S60_APP_EXE(saxbookmarks)
+S60_APP_RESOURCE(saxbookmarks)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\saxbookmarks_reg.rsc   \private\10003a3f\import\apps\saxbookmarks_reg.rsc
+
+S60_APP_EXE(defaultprototypes)
+S60_APP_RESOURCE(defaultprototypes)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\defaultprototypes_reg.rsc   \private\10003a3f\import\apps\defaultprototypes_reg.rsc
+
+S60_APP_EXE(queuedcustomtype)
+S60_APP_RESOURCE(queuedcustomtype)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\queuedcustomtype_reg.rsc   \private\10003a3f\import\apps\queuedcustomtype_reg.rsc
+
+// Webkit test apps
+
+S60_APP_EXE(anomaly)
+S60_APP_RESOURCE(anomaly)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\anomaly_reg.rsc   \private\10003a3f\import\apps\anomaly_reg.rsc
+
+//Qml Apps
+//qmlcalculator
+// Executable and default resource files
+S60_APP_EXE(qmlcalculator)
+S60_APP_RESOURCE(qmlcalculator)
+data =\epoc32\data\z\private\10003a3f\import\apps\qmlcalculator_reg.rsc    \private\10003a3f\import\apps\qmlcalculator_reg.rsc
+data =\epoc32\data\z\resource\apps\qmlcalculator.mif    \resource\apps\qmlcalculator.mif
+
+// DEPLOYMENT
+data =\epoc32\data\z\private\A000E3FB\calculator.qml    \private\A000E3FB\calculator.qml
+data =\epoc32\data\z\private\A000E3FB\Core\Button.qml    \private\A000E3FB\Core\Button.qml
+data =\epoc32\data\z\private\A000E3FB\Core\calculator.js    \private\A000E3FB\Core\calculator.js
+data =\epoc32\data\z\private\A000E3FB\Core\Display.qml    \private\A000E3FB\Core\Display.qml
+data =\epoc32\data\z\private\A000E3FB\Core\images\button-.png    \private\A000E3FB\Core\images\button-.png
+data =\epoc32\data\z\private\A000E3FB\Core\images\button-blue.png    \private\A000E3FB\Core\images\button-blue.png
+data =\epoc32\data\z\private\A000E3FB\Core\images\button-green.png    \private\A000E3FB\Core\images\button-green.png
+data =\epoc32\data\z\private\A000E3FB\Core\images\button-purple.png    \private\A000E3FB\Core\images\button-purple.png
+data =\epoc32\data\z\private\A000E3FB\Core\images\button-red.png    \private\A000E3FB\Core\images\button-red.png
+data =\epoc32\data\z\private\A000E3FB\Core\images\display.png    \private\A000E3FB\Core\images\display.png
+data =\epoc32\data\z\private\A000E3FB\Core\qmldir    \private\A000E3FB\Core\qmldir
+
+//qmlclocks
+// Executable and default resource files
+S60_APP_EXE(qmlclocks)
+S60_APP_RESOURCE(qmlclocks)
+data=\epoc32\data\Z\private\10003a3f\import\Apps\qmlclocks_reg.rsc   \private\10003a3f\import\apps\qmlclocks_reg.rsc
+data=\epoc32\data\z\resource\apps\qmlclocks.mif                       \resource\apps\qmlclocks.mif
+//DEPLOYMENT
+data =\epoc32\data\z\private\A000E3FC\clocks.qml    \private\A000E3FC\clocks.qml
+data =\epoc32\data\z\private\A000E3FC\content\background.png    \private\A000E3FC\content\background.png
+data =\epoc32\data\z\private\A000E3FC\content\center.png    \private\A000E3FC\content\center.png
+data =\epoc32\data\z\private\A000E3FC\content\clock-night.png    \private\A000E3FC\content\clock-night.png
+data =\epoc32\data\z\private\A000E3FC\content\clock.png    \private\A000E3FC\content\clock.png
+data =\epoc32\data\z\private\A000E3FC\content\Clock.qml    \private\A000E3FC\content\Clock.qml
+data =\epoc32\data\z\private\A000E3FC\content\hour.png    \private\A000E3FC\content\hour.png
+data =\epoc32\data\z\private\A000E3FC\content\minute.png    \private\A000E3FC\content\minute.png
+data =\epoc32\data\z\private\A000E3FC\content\second.png    \private\A000E3FC\content\second.png
+
+//qmldialcontrol
+// Executable and default resource files
+S60_APP_EXE(qmldialcontrol)
+S60_APP_RESOURCE(qmldialcontrol)
+data =\epoc32\data\z\private\10003a3f\import\apps\qmldialcontrol_reg.rsc    \private\10003a3f\import\apps\qmldialcontrol_reg.rsc
+data =\epoc32\data\z\resource\apps\qmldialcontrol.mif    \resource\apps\qmldialcontrol.mif
+
+// DEPLOYMENT
+data =\epoc32\data\z\private\A000E3FD\dialcontrol.qml    \private\A000E3FD\dialcontrol.qml
+data =\epoc32\data\z\private\A000E3FD\content\background.png    \private\A000E3FD\content\background.png
+data =\epoc32\data\z\private\A000E3FD\content\Dial.qml    \private\A000E3FD\content\Dial.qml
+data =\epoc32\data\z\private\A000E3FD\content\needle.png    \private\A000E3FD\content\needle.png
+data =\epoc32\data\z\private\A000E3FD\content\needle_shadow.png    \private\A000E3FD\content\needle_shadow.png
+data =\epoc32\data\z\private\A000E3FD\content\overlay.png    \private\A000E3FD\content\overlay.png
+
+//qmleasing
+// Executable and default resource files
+S60_APP_EXE(qmleasing)
+S60_APP_RESOURCE(qmleasing)
+data =\epoc32\data\z\private\10003a3f\import\apps\qmleasing_reg.rsc    \private\10003a3f\import\apps\qmleasing_reg.rsc
+data =\epoc32\data\z\resource\apps\qmleasing.mif    \resource\apps\qmleasing.mif
+
+// DEPLOYMENT
+data =\epoc32\data\z\private\A000E3FE\easing.qml    \private\A000E3FE\easing.qml
+
+//qmlflickr
+// Executable and default resource files
+S60_APP_EXE(qmlflickr)
+S60_APP_RESOURCE(qmlflickr)
+data =\epoc32\data\z\private\10003a3f\import\apps\qmlflickr_reg.rsc    \private\10003a3f\import\apps\qmlflickr_reg.rsc
+data =\epoc32\data\z\resource\apps\qmlflickr.mif    \resource\apps\qmlflickr.mif
+
+// DEPLOYMENT
+data =\epoc32\data\z\private\A000E3FF\flickr.qml    \private\A000E3FF\flickr.qml
+data =\epoc32\data\z\private\A000E3FF\common\Progress.qml    \private\A000E3FF\common\Progress.qml
+data =\epoc32\data\z\private\A000E3FF\common\qmldir    \private\A000E3FF\common\qmldir
+data =\epoc32\data\z\private\A000E3FF\common\RssModel.qml    \private\A000E3FF\common\RssModel.qml
+data =\epoc32\data\z\private\A000E3FF\common\ScrollBar.qml    \private\A000E3FF\common\ScrollBar.qml
+data =\epoc32\data\z\private\A000E3FF\common\Slider.qml    \private\A000E3FF\common\Slider.qml
+data =\epoc32\data\z\private\A000E3FF\mobile\Button.qml    \private\A000E3FF\mobile\Button.qml
+data =\epoc32\data\z\private\A000E3FF\mobile\GridDelegate.qml    \private\A000E3FF\mobile\GridDelegate.qml
+data =\epoc32\data\z\private\A000E3FF\mobile\ImageDetails.qml    \private\A000E3FF\mobile\ImageDetails.qml
+data =\epoc32\data\z\private\A000E3FF\mobile\images\gloss.png    \private\A000E3FF\mobile\images\gloss.png
+data =\epoc32\data\z\private\A000E3FF\mobile\images\lineedit.png    \private\A000E3FF\mobile\images\lineedit.png
+data =\epoc32\data\z\private\A000E3FF\mobile\images\lineedit.sci    \private\A000E3FF\mobile\images\lineedit.sci
+data =\epoc32\data\z\private\A000E3FF\mobile\images\quit.png    \private\A000E3FF\mobile\images\quit.png
+data =\epoc32\data\z\private\A000E3FF\mobile\images\stripes.png    \private\A000E3FF\mobile\images\stripes.png
+data =\epoc32\data\z\private\A000E3FF\mobile\images\titlebar.png    \private\A000E3FF\mobile\images\titlebar.png
+data =\epoc32\data\z\private\A000E3FF\mobile\images\titlebar.sci    \private\A000E3FF\mobile\images\titlebar.sci
+data =\epoc32\data\z\private\A000E3FF\mobile\images\toolbutton.png    \private\A000E3FF\mobile\images\toolbutton.png
+data =\epoc32\data\z\private\A000E3FF\mobile\images\toolbutton.sci    \private\A000E3FF\mobile\images\toolbutton.sci
+data =\epoc32\data\z\private\A000E3FF\mobile\ListDelegate.qml    \private\A000E3FF\mobile\ListDelegate.qml
+data =\epoc32\data\z\private\A000E3FF\mobile\TitleBar.qml    \private\A000E3FF\mobile\TitleBar.qml
+data =\epoc32\data\z\private\A000E3FF\mobile\ToolBar.qml    \private\A000E3FF\mobile\ToolBar.qml
+
+//qmlphotoviewer
+// Executable and default resource files
+S60_APP_EXE(qmlphotoviewer)
+S60_APP_RESOURCE(qmlphotoviewer)
+data =\epoc32\data\z\private\10003a3f\import\apps\qmlphotoviewer_reg.rsc    \private\10003a3f\import\apps\qmlphotoviewer_reg.rsc
+data =\epoc32\data\z\resource\apps\qmlphotoviewer.mif    \resource\apps\qmlphotoviewer.mif
+
+// DEPLOYMENT
+data =\epoc32\data\z\private\A000E400\photoviewer.qml    \private\A000E400\photoviewer.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\AlbumDelegate.qml    \private\A000E400\PhotoViewerCore\AlbumDelegate.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\BusyIndicator.qml    \private\A000E400\PhotoViewerCore\BusyIndicator.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\Button.qml    \private\A000E400\PhotoViewerCore\Button.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\EditableButton.qml    \private\A000E400\PhotoViewerCore\EditableButton.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\images\box-shadow.png    \private\A000E400\PhotoViewerCore\images\box-shadow.png
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\images\busy.png    \private\A000E400\PhotoViewerCore\images\busy.png
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\images\cardboard.png    \private\A000E400\PhotoViewerCore\images\cardboard.png
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\PhotoDelegate.qml    \private\A000E400\PhotoViewerCore\PhotoDelegate.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\ProgressBar.qml    \private\A000E400\PhotoViewerCore\ProgressBar.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\qmldir    \private\A000E400\PhotoViewerCore\qmldir
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\RssModel.qml    \private\A000E400\PhotoViewerCore\RssModel.qml
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\script\script.js    \private\A000E400\PhotoViewerCore\script\script.js
+data =\epoc32\data\z\private\A000E400\PhotoViewerCore\Tag.qml    \private\A000E400\PhotoViewerCore\Tag.qml
+
+// qmltwitter
+// Executable and default resource files
+S60_APP_EXE(qmltwitter)
+S60_APP_RESOURCE(qmltwitter)
+data =\epoc32\data\z\private\10003a3f\import\apps\qmltwitter_reg.rsc    \private\10003a3f\import\apps\qmltwitter_reg.rsc
+data =\epoc32\data\z\resource\apps\qmltwitter.mif    \resource\apps\qmltwitter.mif
+
+// DEPLOYMENT
+data =\epoc32\data\z\private\A000E401\twitter.qml    \private\A000E401\twitter.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\AuthView.qml    \private\A000E401\TwitterCore\AuthView.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\Button.qml    \private\A000E401\TwitterCore\Button.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\FatDelegate.qml    \private\A000E401\TwitterCore\FatDelegate.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\HomeTitleBar.qml    \private\A000E401\TwitterCore\HomeTitleBar.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\gloss.png    \private\A000E401\TwitterCore\images\gloss.png
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\lineedit.png    \private\A000E401\TwitterCore\images\lineedit.png
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\lineedit.sci    \private\A000E401\TwitterCore\images\lineedit.sci
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\loading.png    \private\A000E401\TwitterCore\images\loading.png
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\stripes.png    \private\A000E401\TwitterCore\images\stripes.png
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\titlebar.png    \private\A000E401\TwitterCore\images\titlebar.png
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\titlebar.sci    \private\A000E401\TwitterCore\images\titlebar.sci
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\toolbutton.png    \private\A000E401\TwitterCore\images\toolbutton.png
+data =\epoc32\data\z\private\A000E401\TwitterCore\images\toolbutton.sci    \private\A000E401\TwitterCore\images\toolbutton.sci
+data =\epoc32\data\z\private\A000E401\TwitterCore\Loading.qml    \private\A000E401\TwitterCore\Loading.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\MultiTitleBar.qml    \private\A000E401\TwitterCore\MultiTitleBar.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\qmldir    \private\A000E401\TwitterCore\qmldir
+data =\epoc32\data\z\private\A000E401\TwitterCore\RssModel.qml    \private\A000E401\TwitterCore\RssModel.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\TitleBar.qml    \private\A000E401\TwitterCore\TitleBar.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\ToolBar.qml    \private\A000E401\TwitterCore\ToolBar.qml
+data =\epoc32\data\z\private\A000E401\TwitterCore\UserModel.qml    \private\A000E401\TwitterCore\UserModel.qml
+
+#endif // QTDEMOAPPS_IBY

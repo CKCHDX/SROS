@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+============================================================================ 
+Name        : helium.ant.xml 
+Part of     : Helium 
+
+Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+All rights reserved.
+This component and the accompanying materials are made available
+under the terms of the License "Eclipse Public License v1.0"
+which accompanies this distribution, and is available
+at the URL "http://www.eclipse.org/legal/epl-v10.html".
+
+Initial Contributors:
+Nokia Corporation - initial contribution.
+
+Contributors:
+
+Description:
+
+============================================================================
+-->
+<project name="helium" xmlns:hlm="http://www.nokia.com/helium">
+    <description>
+    Main starting point to import Helium. Imports the other main Ant files.
+    </description>
+    
+    <property environment="env" />
+    
+    <!-- Load the current Helium version. -->
+    <!--* @property helium.version
+    @type string
+    @scope private
+    -->
+    <property file="${helium.dir}/config/version.txt"/>
+
+
+    <import file="helium_preinclude.ant.xml"/>
+    
+    
+    <hlm:typedef file="${helium.dir}/tools/common/common.antlib.xml" uri="http://www.nokia.com/helium"/>
+    
+    <!-- Import default configuration settings. -->
+    <import file="tools/common/default_config.ant.xml"/>
+
+    <!-- Import basic targets.
+        
+    The intention would be to split the targets into separate files somewhat
+    matching the build phases and import each one here.
+    -->
+    <import file="extensions/nokia/build.xml" optional="true"/>
+    <import file="tools/preparation/preparation.ant.xml"/>
+    <import file="tools/common/common.ant.xml"/>
+    <import file="tools/common/testing.ant.xml"/>
+    <import file="tools/compile/compile.ant.xml"/>
+    <import file="tools/common/docs.ant.xml"/>
+    <import file="tools/common/helium_docs.ant.xml"/>
+    <import file="tools/localisation/localisation.ant.xml"/>
+    <import file="tools/logging/logging.ant.xml"/>
+    <import file="tools/publish/publish.ant.xml"/>
+    <import file="tools/metadata/metadata.ant.xml"/>
+    <import file="tools/release/release.ant.xml"/>
+    <import file="tools/rombuild/rombuild.ant.xml"/>
+    <import file="tools/quality/quality.ant.xml"/>
+    <import file="tools/relnotes/relnotes.ant.xml"/>
+    <import file="tools/integration/integration.ant.xml"/>
+    <import file="tools/startup/antserver/remote.ant.xml" />
+    <import file="tools/testing/testing.ant.xml" />
+    <import file="tools/startup/bootstrap/bootstrap.ant.xml"/>
+    <import file="tools/iad/iad.ant.xml"/>
+    <import file="tools/blocks/blocks.ant.xml"/>
+    <import file="config/signaling_config_default.ant.xml"/>
+    <import file="config/stages_config_default.ant.xml"/>
+    <import file="config/metadata_filter_config_default.ant.xml"/>
+    <import file="config/diamonds_config_default.ant.xml"/>
+
+</project>
+
+

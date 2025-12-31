@@ -1,0 +1,41 @@
+/*
+* Copyright (c) 2002-2005 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Localisation of Remotelock
+*
+*/
+
+
+// LOCALISATION STRINGS:
+
+//d: Text indicating succesfull phone and MMC remote lock.
+//d: When device is locked using remote lock SMS, information of this
+//d: is sent back as a SMS to the sender. The content of this reply-SMS
+//d: depends whether MMC was also locked or not.
+//d: Do not use line feeds ("\n"). Do not exceed length of an SMS (160).
+//l: 
+//w: 
+#define qtn_rloc_ti_everything_locked "Mobile phone and memory card are locked. Remote lock message is used as a memory card password."
+
+//d: Text indicating succesfull phone remote lock.
+//d: When device is locked using remote lock SMS, information of this
+//d: is sent back as a SMS to the sender. The content of this reply-SMS
+//d: depends whether MMC was also locked or not.
+//d: Do not use line feeds ("\n"). Do not exceed length of an SMS (160).
+//l:
+//w: 
+#define qtn_rloc_ti_phone_locked "Mobile phone is locked"
+
+
+// End of File
+

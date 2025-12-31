@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Autolock_hbicon" >
+    <file alias="iconnotifier.svg">iconnotifier.svg</file>
+    <file alias="qtg_large_device_lock.svg">qtg_large_device_lock.svg</file>
+    </qresource>
+</RCC>

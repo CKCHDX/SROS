@@ -1,0 +1,27 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*
+*/
+
+#ifndef __CERTMANUI_IBY__
+#define __CERTMANUI_IBY__
+
+#ifdef RD_GS_RENOVATION
+  ECOM_PLUGIN( CertManUi.dll,10008D3D.rsc )
+#else
+  file=ABI_DIR\BUILD_DIR\CERTMANUI.dll        SHARED_LIB_DIR\CERTMANUI.dll
+#endif // RD_GS_RENOVATION
+
+#endif

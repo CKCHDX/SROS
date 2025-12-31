@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemDefinition schema="3.0.0" xmlns:qt="http://www.nokia.com/qt">
+ <package id="securitysrv" name="Security Services" levels="plugin framework server generic specific">
+  <collection id="secsrv_plat" name="Security Services Platform Interfaces" level="specific">
+   <component id="cms_api" name="CMS API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/cms_api/cms_api.metaxml"/>
+    <unit bldFile="secsrv_plat/cms_api/group"/>
+   </component>
+   <component id="pkcs12_parser_api" name="PKCS12 Parser API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/pkcs12_parser_api/pkcs12_parser_api.metaxml"/>
+    <unit bldFile="secsrv_plat/pkcs12_parser_api/group"/>
+   </component>
+   <component id="java_utils_api" name="Java Utils API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/java_utils_api/java_utils_api.metaxml"/>
+    <unit bldFile="secsrv_plat/java_utils_api/group"/>
+   </component>
+   <component id="wim_cert_api" name="WIM Cert API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/wim_cert_api/wim_cert_api.metaxml"/>
+    <unit bldFile="secsrv_plat/wim_cert_api/group"/>
+   </component>
+   <component id="device_key_store_encryption_plugin_api" name="Device Key Store Encryption Plug-in API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/device_key_store_encryption_plugin_api/device_key_store_encryption_plugin_api.metaxml"/>
+    <unit bldFile="secsrv_plat/device_key_store_encryption_plugin_api/group"/>
+   </component>
+   <component id="x509certnameparser_api" name="X.509 Certificate Name Parser API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/x509certnameparser_api/x509certnameparser_api.metaxml"/>
+    <unit bldFile="secsrv_plat/x509certnameparser_api/group"/>
+   </component>
+   <component id="remote_lock_api" name="Remote Lock API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/remote_lock_api/remote_lock_api.metaxml"/>
+    <unit bldFile="secsrv_plat/remote_lock_api/group"/>
+   </component>
+   <component id="pkidialog_api" name="PKI Dialog API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/pkidialog_api/pkidialog_api.metaxml"/>
+    <unit bldFile="secsrv_plat/pkidialog_api/group"/>
+   </component>
+   <component id="provisioning_api" name="Provisioning API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/provisioning_api/provisioning_api.metaxml"/>
+    <unit bldFile="secsrv_plat/provisioning_api/group"/>
+   </component>
+   <component id="keyguard_configuration_api" name="Keyguard Configuration API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/keyguard_configuration_api/keyguard_configuration_api.metaxml"/>
+    <unit bldFile="secsrv_plat/keyguard_configuration_api/group"/>
+   </component>
+   <component id="keylock_policy_api" name="Keylock Policy API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/keylock_policy_api/keylock_policy_api.metaxml"/>
+    <unit bldFile="secsrv_plat/keylock_policy_api/group"/>
+   </component>
+   <component id="security_code_ui_api" name="Security Code UI API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/security_code_ui_api/security_code_ui_api.metaxml"/>
+    <unit bldFile="secsrv_plat/security_code_ui_api/group"/>
+   </component>
+   <component id="gba_api" name="GBA API" class="api" filter="s60,build_as_app">
+    <meta rel="Api" href="secsrv_plat/gba_api/gba_api.metaxml"/>
+    <unit bldFile="secsrv_plat/gba_api/group"/>
+   </component>
+   <component id="keyguard_access_api" name="Keyguard Access API" class="api" filter="s60,build_as_app">
+    <unit bldFile="secsrv_plat/keyguard_access_api/group"/>
+   </component>
+   <component id="devicelock_access_api" name="Device Lock Access API" class="api" filter="s60,build_as_app">
+    <unit bldFile="secsrv_plat/devicelock_access_api/group"/>
+   </component>
+   <component id="lockapp_server_api" name="Lock Application Server API" class="api" filter="s60,build_as_app">
+    <unit bldFile="secsrv_plat/lockapp_server_api/group"/>
+   </component>
+   <component id="devencadaptation_api" name="Device Encryption Adaptation API" class="api" filter="s60,build_as_app">
+    <unit bldFile="secsrv_plat/devencadaptation_api/group"/>
+   </component>
+   <component id="devenccommonutils_api" name="Device Encryption Common Utils API" class="api" filter="s60,build_as_app">
+    <unit bldFile="secsrv_plat/devenccommonutils_api/group"/>
+   </component>
+  </collection>
+  <collection id="cms" name="Certificate Management Service" level="server">
+   <!-- collection is really a component. Need to move down a directory-->
+   <component id="cms_build" filter="s60,build_as_app" name="CMS" introduced="^3">
+    <unit bldFile="cms/group"/>
+   </component>
+  </collection>
+  <collection id="pkiutilities" name="PKI Utilities" level="plugin">
+   <component id="x509certnameparser" filter="s60,build_as_app" name="X.509 Certificate Name Parser">
+    <unit bldFile="pkiutilities/x509certnameparser/group"/>
+   </component>
+   <component id="pkcs12" filter="s60,build_as_app" name="PKCS #12">
+    <unit bldFile="pkiutilities/pkcs12/group"/>
+   </component>
+   <component id="certsaver" filter="s60,build_as_app" name="Certificate Saver">
+    <unit bldFile="pkiutilities/certsaver/group"/>
+   </component>
+   <component id="devicetoken" filter="s60,build_as_app" name="Device Token">
+    <unit bldFile="pkiutilities/devicetoken/group"/>
+   </component>
+   <component id="securitydialognotifier" filter="s60,build_as_app" name="Security Dialogs Notifier" introduced="^4">
+    <unit bldFile="pkiutilities/securitydialognotifier/group"/>
+   </component>
+   <component id="securitydialognotifiersrv" filter="s60,build_as_app" name="Security Dialogs Notifier Server" introduced="^4">
+    <unit bldFile="pkiutilities/securitydialognotifiersrv/group"/>
+   </component>
+   <component id="certificates" filter="s60,build_as_app" name="Certificates">
+    <unit bldFile="pkiutilities/Certificates/group"/>
+   </component>
+   <component id="pkiutilities_build" filter="s60,build_as_app" name="PKI Utilities Build">
+    <!-- need to split this into the above components -->
+    <unit bldFile="pkiutilities/group"/>
+   </component>
+     <component id="ocsp" name="Online Certificate Status Protocol" introduced="^2" purpose="optional" filter="s60,build_as_app">
+    <unit bldFile="pkiutilities/ocsp/group" mrp="pkiutilities/ocsp/group/securitysrv_ocsp.mrp"/>
+   </component>
+   <component id="ocsp_ncp" name="Online Certificate Status Protocol" introduced="^2" purpose="optional">
+      <unit bldFile="pkiutilities/ocsp/group_ncp" mrp="pkiutilities/ocsp/group/securitysrv_ocsp.mrp"/>
+   </component>
+   <component id="untrustedcertificatedialog" filter="s60,build_as_app" name="Untrusted Certificate Dialog" introduced="^4">
+    <unit bldFile="pkiutilities/untrustedcertificatedialog" qt:proFile="untrustedcertificateplugin.pro"/>
+   </component>
+  </collection>
+  <collection id="wim" name="Wireless Identity Module" level="framework">
+   <!-- collection is really a component. Need to move down a directory-->
+   <component id="wim_build" filter="s60,build_as_app" name="WIM Build">
+    <unit bldFile="wim/group"/>
+   </component>
+  </collection>
+  <collection id="remotelock" name="Remote Lock" level="generic">
+   <!-- collection is really a component. Need to move down a directory-->
+   <component id="remotelock_build" filter="s60,build_as_app" name="Remote Lock Build">
+    <unit bldFile="remotelock/group"/>
+   </component>
+  </collection>
+  <collection id="securitydialogs" name="Security Dialogs" level="specific">
+   <component id="keylockpolicyapi" filter="s60,build_as_app" name="Keylock Policy API">
+    <unit bldFile="securitydialogs/keylockpolicyapi/group"/>
+   </component>
+   <component id="secui" filter="s60,build_as_app" name="Security UI">
+    <unit bldFile="securitydialogs/secui/group"/>
+   </component>
+   <component id="securitynotifier" filter="s60,build_as_app" name="Security Notifier">
+    <unit bldFile="securitydialogs/securitynotifier/group"/>
+   </component>
+   <component id="secuidialognotifier" filter="s60,build_as_app" introduced="^4" name="SecUi Dialog Notifier">
+    <unit bldFile="securitydialogs/secuidialognotifier/group"/>
+   </component>
+   <component id="secuidialognotifiersrv" filter="s60,build_as_app" introduced="^4" name="SecUi Dialog Notifier Server">
+    <unit bldFile="securitydialogs/secuidialognotifiersrv/group"/>
+   </component>
+   <component id="lockclient" filter="s60,build_as_app" name="Lock Client" introduced="^3">
+    <unit bldFile="securitydialogs/lockclient/group" qt:proFile="lockclient.pro"/>
+   </component>
+   <component id="lockapp" filter="s60,build_as_app" name="Lock Application" introduced="^3">
+    <unit bldFile="securitydialogs/lockapp/group"/>
+   </component>
+   <component id="secuinotifications" name="Security UI Notifications" introduced="^4" filter="s60,build_as_app">
+      <unit bldFile="securitydialogs/secuinotifications" qt:proFile="secuinotifications.pro"/>
+   </component>
+   <component id="indicatorautolockplugin" name="Auto Lock Indicator Plugin" introduced="^4" filter="s60,build_as_app" class="plugin">
+		<!-- directory at the wrong level to be a component-->
+      <unit bldFile="securitydialogs/autolock/indicatorplugin" qt:proFile="indicatorautolockplugin.pro"/>
+   </component>
+   <component id="autolockuseractivityservice" name="Auto Lock User Activity Service" introduced="^4" filter="s60,build_as_app">
+		<!-- Can't have a component inside another. Need to move to securitydialogs/autolockuseractivityservice -->
+      <unit bldFile="securitydialogs/autolock/autolockuseractivityservice" qt:proFile="autolockuseractivityservice.pro"/>
+   </component>
+   <component id="autolocksrv" name="Auto Lock Server" introduced="^4" filter="s60,build_as_app">
+      <unit bldFile="securitydialogs/autolock" qt:proFile="autolock.pro"/>
+   </component>
+  </collection>
+  <collection id="cpsecplugins" name="Security Settings Plugins" level="plugin">
+   <component id="devicelockplugin" name="Device Lock Plugin" introduced="^4" filter="s60,build_as_app" class="plugin">
+      <unit bldFile="cpsecplugins/devicelockplugin" qt:proFile="devicelockplugin.pro"/>
+   </component>
+   <component id="simpincodeplugin" name="SIM PIN Code Plugin" introduced="^4" filter="s60,build_as_app" class="plugin">
+      <unit bldFile="cpsecplugins/simpincodeplugin" qt:proFile="pincodeplugin.pro"/>
+   </component>
+   <component id="cpadvancedsecplugin" name="Advanced Security Settings Plugin" introduced="^4" filter="s60,build_as_app" class="plugin">
+      <unit bldFile="cpsecplugins/cpadvancedsecplugin" qt:proFile="cpadvancedsecplugin.pro"/>
+   </component>
+  </collection>
+  <collection id="boottimeintegritycheck" name="Boot Time Integrity Check" level="plugin">
+   <!-- collection is really a component. Need to move down a directory-->
+   <component id="boottimeintegritycheck_build" filter="s60,build_as_app" name="Boot Time Integrity Check Build">
+    <unit bldFile="boottimeintegritycheck/group"/>
+   </component>
+  </collection>
+  <collection id="gba" name="Generic Bootstrapping Architecture" level="server">
+   <component id="uicc" filter="s60,build_as_app" name="UICC" class="plugin" introduced="^2">
+    <unit bldFile="gba/uicc/group"/>
+   </component>
+   <component id="gbaserver" filter="s60,build_as_app" name="GBA Server" introduced="^2">
+    <unit bldFile="gba/gbaserver/group"/>
+   </component>
+   <component id="gbaapi" filter="s60,build_as_app" name="GBA API" introduced="^2">
+    <unit bldFile="gba/gbaapi/group"/>
+   </component>
+   <component id="gbafilter" filter="s60,build_as_app" name="GBA HTTP Filter" class="plugin" introduced="^2">
+    <unit bldFile="gba/gbafilter/group"/>
+   </component>
+   <component id="gba_rom" filter="s60,build_as_app" name="Generic Boot Architecture ROM" introduced="^2">
+    <unit bldFile="gba/rom"/>
+   </component>
+  </collection>
+  <collection id="devencdiskutils" name="Device Encryption Disk Utils" level="server">
+   <component id="devenccommonutils" filter="s60,build_as_app" name="Device Encryption Common Utils" introduced="^3">
+    <unit bldFile="devencdiskutils/DevEncCommonUtils/group"/>
+   </component>
+   <component id="devencrfsplugin" filter="s60,build_as_app" name="Device Encryption RFS Plugin" introduced="^3" class="plugin">
+    <unit bldFile="devencdiskutils/DevEncRfsPlugin/group"/>
+   </component>
+   <component id="pk5recognizer" filter="s60,build_as_app" name="Device Encryption Pk5 Recognizer" introduced="^3" class="plugin">
+    <unit bldFile="devencdiskutils/Pk5Recognizer/group"/>
+   </component>
+   <component id="devencstarter" filter="s60,build_as_app" name="Device Encryption Starter" introduced="^3" class="plugin">
+    <unit bldFile="devencdiskutils/DevEncStarter/group"/>
+   </component>
+   <component id="devencdiskutils_rom" filter="s60,build_as_app" name="Device Encryption Disk Utils ROM" introduced="^3">
+    <unit bldFile="devencdiskutils/rom"/>
+   </component>
+  </collection>
+  <collection id="securitysrv_info" name="Security Services Info" level="specific">
+   <component id="securitysrv_test" filter="s60,build_as_app,test,api_test" purpose="development" name="Security Services Test">
+    <unit bldFile="tsrc/group" filter="TA_SECURITYSRV"/>
+   </component>
+   <component id="securitysrv_metadata" name="Security Services Metadata" class="config" introduced="^2" purpose="development" target="desktop">
+    <unit mrp="securitysrv_info/securitysrv_metadata/securitysrv_metadata.mrp"/>
+   </component>
+  </collection>
+ </package>
+</SystemDefinition>

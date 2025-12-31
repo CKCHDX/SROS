@@ -1,0 +1,5 @@
+EXPORTS
+	_ZN21RIntegrityCheckClient15GetSWBootReasonERi @ 1 NONAME
+	_ZN21RIntegrityCheckClient5CloseEv @ 2 NONAME
+	_ZN21RIntegrityCheckClient7ConnectEv @ 3 NONAME
+

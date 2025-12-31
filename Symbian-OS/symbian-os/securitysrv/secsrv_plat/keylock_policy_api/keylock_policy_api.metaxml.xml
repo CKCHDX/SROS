@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<api id="cd4b44aac9f6d77c6bc3f78b209a5751" dataversion="1.0">
+<name>Keylock Policy API</name>
+<description>An interface offerring a configuration support for keyguard.</description>
+<type>c++</type>
+<subsystem>devicemanagement</subsystem>
+<libs></libs>
+<release category="domain" sinceversion=""/>
+<attributes>
+<htmldocprovided>yes</htmldocprovided>
+<adaptation>no</adaptation>
+</attributes>
+</api>

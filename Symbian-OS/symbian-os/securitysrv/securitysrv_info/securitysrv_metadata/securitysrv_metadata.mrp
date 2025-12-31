@@ -1,0 +1,6 @@
+component           securitysrv_metadata
+source   \sf\mw\securitysrv\securitysrv_info\securitysrv_metadata 
+source   \sf\mw\securitysrv\package_definition.xml
+source   \sf\mw\securitysrv\distribution.policy.s60
+notes_source      \component_defs\release.src
+ipr T 

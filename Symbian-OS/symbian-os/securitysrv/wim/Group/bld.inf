@@ -1,0 +1,63 @@
+/*
+* Copyright (c) 2005-2009 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  
+*
+*/
+
+#include <platform_paths.hrh>
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+//Digital Signature notes
+../inc/DigSigningNote.h         |../../inc/DigSigningNote.h
+
+// export iby files
+../rom/wim.iby  CORE_MW_LAYER_IBY_EXPORT_PATH( wim.iby )
+
+// Wimi.lib is needed by WimServer. Provided as binary file.
+../WimSoft/winscw/udeb/WIMI.LIB   /epoc32/release/winscw/udeb/Wimi.lib
+../WimSoft/winscw/urel/WIMI.LIB   /epoc32/release/winscw/urel/Wimi.lib
+
+#ifndef SBSV2
+../WimSoft/armv5/udeb/wimi.lib    /epoc32/release/armv5/udeb/Wimi.lib
+../WimSoft/armv5/urel/wimi.lib    /epoc32/release/armv5/urel/Wimi.lib
+#else
+
+// For raptor, Static libraries needs to be added using PRJ_EXTENSION section;this way
+PRJ_EXTENSIONS
+START EXTENSION utility.prebuilt
+ OPTION PRE_PLATFORM armv5
+ OPTION PRE_TYPE urel
+ OPTION BINARIES ../WimSoft/armv5/urel/Wimi.lib
+END
+
+START EXTENSION utility.prebuilt
+ OPTION PRE_PLATFORM armv5
+ OPTION PRE_TYPE udeb
+ OPTION BINARIES ../WimSoft/armv5/udeb/Wimi.lib
+END
+#endif
+//Do not add any other exports here as above the prj_extension section starts. Add it before the #ifndef SBSV2 line.
+
+PRJ_MMPFILES
+../SwimReader/group/SwimReader.mmp
+../Scard/group/Scard.mmp
+../WimUtil/group/WimUtil.mmp
+../WimServer/group/WimServer.mmp
+../WimClient/group/WimClient.mmp
+../WimPlugin/group/WimPlugin.mmp
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service>
+  <name>com.nokia.services.Autolock</name>
+  <filepath>No path</filepath>
+  <description>Autolock service</description>
+  <interface>
+     <name>Autolock</name>
+     <version>2.0</version>
+     <description>Interface to Autolock</description>
+     <customproperty key="txt_aiw_action_text">Dial now</customproperty>
+   </interface>
+</service>

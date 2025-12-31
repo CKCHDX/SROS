@@ -1,0 +1,38 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:   Image description file for DevToken
+*
+*/
+
+
+
+#ifndef __DEVTOKEN_IBY__
+#define __DEVTOKEN_IBY__
+
+#ifdef RD_CLIENT_CERTIFICATES
+
+#include <bldvariant.hrh>
+
+FILE=ABI_DIR\BUILD_DIR\DevTokenClient.DLL	SHARED_LIB_DIR\DevTokenclient.DLL
+FILE=ABI_DIR\BUILD_DIR\DevTokenServer.exe	SHARED_LIB_DIR\DevTokenServer.exe
+FILE=ABI_DIR\BUILD_DIR\DevTokenShared.DLL	SHARED_LIB_DIR\DevTokenShared.DLL
+
+
+ECOM_PLUGIN( DevCertStore.DLL, 101FB667.rsc )
+ECOM_PLUGIN( DevKeyStore.DLL, 101FB669.rsc )
+ECOM_PLUGIN( DevSrvCertStore.DLL, 101FB66E.rsc )
+
+#endif //RD_CLIENT_CERTIFICATES
+
+#endif

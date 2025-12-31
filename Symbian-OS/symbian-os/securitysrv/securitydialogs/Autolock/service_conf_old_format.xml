@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service name="com.nokia.services.Autolock"  filepath="must-not-be-empty" >
+  <description>Autolock</description>
+  <interface name="Autolock" version="1.0" capabilities="">
+    <description>Dial interface</description>
+  </interface>
+</service>

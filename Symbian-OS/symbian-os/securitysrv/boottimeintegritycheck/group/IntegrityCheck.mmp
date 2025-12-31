@@ -1,0 +1,53 @@
+/*
+* Copyright (c) 2005-2008 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Boot time integrity check of binaries.
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+TARGET                  IntegrityCheck.exe
+TARGETTYPE              exe
+UID                     0x0 0x101FB65F
+
+CAPABILITY              TCB ReadUserData AllFiles ReadDeviceData
+SECUREID                0x101FB65F
+VENDORID                VID_DEFAULT
+
+SOURCEPATH              ../src
+SOURCE                  IntegrityCheck.cpp
+SOURCE                  InfoServerClient.cpp
+
+USERINCLUDE             ../inc
+
+APP_LAYER_SYSTEMINCLUDE
+
+LIBRARY	                euser.lib
+LIBRARY                 efsrv.lib 
+LIBRARY                 bafl.lib                // for path search
+LIBRARY                 estor.lib               // for TStreamId 
+LIBRARY                 x500.lib                // for ExactMatchL etc.
+LIBRARY                 x509.lib                // for x509 certs
+LIBRARY                 crypto.lib              // for VerifySignaturL etc.
+LIBRARY                 sisregistryclient.lib   // Sis registery operations
+LIBRARY                 hash.lib                // for SHA1 hash
+LIBRARY                 CTFramework.lib         // for TCertLabel, CCTCertInfo, 
+                                                // TCapabilitySet
+LIBRARY                 IntegrityCheckClient.lib // BTIC Server client                                                
+                                              
+SMPSAFE
+
+
+

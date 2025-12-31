@@ -1,0 +1,38 @@
+/*
+* Copyright (c) 2005-2010 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:   Common build information for the SecurityUIs project
+*
+*/
+
+
+#include "../x509certnameparser/group/bld.inf"
+#include "../PKCS12/group/bld.inf"
+#include "../CertSaver/group/bld.inf"
+#include "../DeviceToken/Group/bld.inf"
+#include "../securitydialognotifier/group/bld.inf"
+#include "../securitydialognotifiersrv/group/bld.inf"
+
+//Stub SIS
+PRJ_EXPORTS
+../StubSIS/CenRepStub.sis   /epoc32/data/z/system/install/CenRepStub.sis
+
+
+// export iby files
+../rom/x509certnameparser.iby   CORE_MW_LAYER_IBY_EXPORT_PATH( x509certnameparser.iby )
+../rom/pkcs12.iby               CORE_MW_LAYER_IBY_EXPORT_PATH( pkcs12.iby )
+../rom/CertSaver.iby            CORE_MW_LAYER_IBY_EXPORT_PATH( CertSaver.iby )
+../rom/CertSaver_resources.iby  LANGUAGE_MW_LAYER_IBY_EXPORT_PATH( CertSaver_resources.iby )
+../rom/DevToken.iby             CORE_MW_LAYER_IBY_EXPORT_PATH( DevToken.iby )
+../rom/StubSIS.iby              CORE_MW_LAYER_IBY_EXPORT_PATH( StubSIS.iby )
+
